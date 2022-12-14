@@ -14,7 +14,7 @@ export default function Home(props) {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 1024 },
-      items: 5,
+      items: 4,
     },
     desktop: {
       breakpoint: { max: 1024, min: 800 },
@@ -66,8 +66,8 @@ export default function Home(props) {
         mt={10}
         alignItems={"center"}
         w={1200}
-        columns={{ base: 2, md: 4, lg: 5, xl: 6, "2xl": 6 }}
-        gap="1px"
+        columns={{ base: 3, md: 3, lg: 5, xl: 6,  }}
+        gap="4px"
       >
         {boxarr.map((el) => (
           <Box
@@ -87,7 +87,7 @@ export default function Home(props) {
           </Box>
         ))}
       </SimpleGrid>
-      <Carousel responsive={responsive}>
+      <Carousel dots={true} autoPlay={true} responsive={responsive}>
         {HomeSlider.map((el) => (
           <SliderProduct image={el.img} title={el.title} price={el.price} />
         ))}
