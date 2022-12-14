@@ -1,11 +1,12 @@
-import logo from "./Images/RentDoAnimalLogo.jpg"
-import './App.css';
+import "./App.css";
+import AllRoutes from "./Routes/AllRoutes";
+
+
 
 function App() {
   return (
     <div className="App">
-      <img  width="200px" src={logo} alt=""/>
-     
+    <AllRoutes />
     </div>
   );
 }
