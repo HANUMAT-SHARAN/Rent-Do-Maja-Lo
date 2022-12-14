@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../Pages/carousel.css";
 
-export default function Carousel(props) {
+export default function HomePageCarousel(props) {
   var settings = {
     dots: true,
     infinite: true,
