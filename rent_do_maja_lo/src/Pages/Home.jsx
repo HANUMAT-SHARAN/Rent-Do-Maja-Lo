@@ -60,7 +60,7 @@ export default function Home(props) {
   return (
     <>
       <Navbar />
-      <HomePageCarousel />
+      <HomePageCarousel mt={20} />
       <SimpleGrid
         m="auto"
         mt={10}

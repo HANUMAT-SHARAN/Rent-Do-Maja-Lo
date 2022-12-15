@@ -49,10 +49,11 @@ export default function Navbar(props) {
   const handleClick = () => setShow(!show);
   return (
     <>
-      <Box
+    <Box  >
+      <Box 
         justifyContent={"space-between"}
         style={{ margin: "auto", borderRadius: "20px" }}
-        width={"1200px"}
+        // width={"1200px"}
         bg={useColorModeValue("white", "gray.900")}
         px={4}
       >
@@ -68,7 +69,7 @@ export default function Navbar(props) {
             <Box>
               <img
                 style={{ borderRadius: "20px" }}
-                width={"60px"}
+                 width={"60px"}
                 src={logo}
                 alt=""
               />
@@ -83,12 +84,12 @@ export default function Navbar(props) {
           </HStack>
 
           <InputGroup
-            w={["1000px", "500px", "500px"]}
+            w={["5000px", "5000px", "500px"]}
             justifyContent={"space-around"}
             size="md"
           >
             <Input
-              ml={["20px", "50px", "100px"]}
+              // ml={["20px", "50px", "100px"]}
               pr="4.5rem"
               color={colorMode === "light" ? "black" : "white"}
               bg={colorMode === "light" ? "gray.200" : "gray.900"}
@@ -105,10 +106,12 @@ export default function Navbar(props) {
                 <Search2Icon boxSize={5} />
               </Button>
             </InputRightElement>
-          </InputGroup>
+          </InputGroup> 
 
           <Flex
-            w={"300px"}
+            //  w={"300px"}
+            w="280px"
+    
             alignItems={"center"}
             justifyContent="space-between"
           >
@@ -170,6 +173,7 @@ export default function Navbar(props) {
       </Box>
 
       <Box p={4}></Box>
+      </Box>
     </>
   );
 }

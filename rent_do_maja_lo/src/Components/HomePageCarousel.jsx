@@ -15,11 +15,11 @@ export default function HomePageCarousel(props) {
   };
 
   return (
-    <div
+    <div mt={60}
       className="sliderdiv"
       style={{ marginLeft: "80px", marginRight: "80px" }}
     >
-      <Slider {...settings} autoplay={true}>
+      <Slider  {...settings} autoplay={true}>
         <img
           style={{ width: "1000px" }}
           src="https://s.rmjo.in/Fitness-offer-banner-for-Web--2.jpg"

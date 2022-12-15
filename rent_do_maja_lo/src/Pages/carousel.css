@@ -17,7 +17,8 @@ dots {
   color: red;
 }
 .sliderdiv {
-  border-radius: 20px;
+  border-radius: 60px;
+
 }
 .category{
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -31,4 +32,9 @@ dots {
 }
 .buttonslider:hover{
 background-color: red;
+}
+.sliderhome:hover{
+  background-color: rgb(93, 69, 252);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: 0.8s;
 }

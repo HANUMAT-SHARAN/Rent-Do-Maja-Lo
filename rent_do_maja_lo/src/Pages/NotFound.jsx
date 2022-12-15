@@ -9,7 +9,7 @@ export default function NotFound(props) {
 
     const redirect=()=>{
         setLoad(true)
-        setTimeout(()=>{nav("/")},300)
+        setTimeout(()=>{nav("/")})
     }
   return (
     <>
