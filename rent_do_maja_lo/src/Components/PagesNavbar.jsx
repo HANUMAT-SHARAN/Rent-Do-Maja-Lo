@@ -16,14 +16,14 @@ export default function PagesNavbar(props) {
   const activeStyle = {
     color: "blue",
   };
-  const divstyle={boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",padding:"  10px 20px 10px 20px",borderRadius:"10px"}
+  const divstyle={boxShadow: "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px",padding:"  10px 20px 10px 20px",borderRadius:"10px"}
 
   return (
     <>
       <Flex p={5} bg={"gray.200"} justifyContent={"space-around"}>
         {arr.map((el) => (
           <NavLink to={el.path} style={({ isActive }) => (isActive ? activeStyle : null)}>
-            <Box >
+            <Box _hover={{transition:"0.8s",padding:"20px"}} style={divstyle} >
               <Text>{el.title}</Text>
             </Box>
           </NavLink>

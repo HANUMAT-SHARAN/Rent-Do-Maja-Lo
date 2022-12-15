@@ -18,19 +18,22 @@ export default function ProductCard(props) {
   return (
     <>
       <Box
+      style={{boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",}}
+      borderRadius={15}
         onMouseEnter={() => showbutton(true)}
         onMouseLeave={() => showbutton(false)}
         w="250px"
         m="auto"
+        p="10px"
       >
-        <Image m={"auto"} w={250} src={img} alt="game"></Image>
+        <Image   borderRadius={15} m={"auto"} w={250} src={img} alt="game"></Image>
         <Flex
  
           alignItems={"center"}
           justifyContent={"space-between"}
         >
           <Box>
-            {" "}
+           
             <Text noOfLines={1} fontSize={"14px"}>
               {title}
             </Text>
@@ -43,7 +46,7 @@ export default function ProductCard(props) {
         <Divider color="black" />
 
         <Flex p={2} justifyContent={"space-between"}>
-          <Text>{price}</Text>
+          <Text>{price}month</Text>
           <Image src={dimg}></Image>
         </Flex>
         <Divider />
