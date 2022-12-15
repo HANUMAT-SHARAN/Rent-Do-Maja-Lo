@@ -117,7 +117,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
     }else if(f[0]==3&&f[1]==true){
       setCat("kitchen")
     }else if(f[0]==4&&f[1]==true){
-      setCat("wfm")
+      setCat("wfm") 
     }
   }
 
