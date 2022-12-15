@@ -1,6 +1,8 @@
 import React, { ReactNode } from "react";
 import ProductCard from "../Components/ProductCard";
 import logo from "../Images/logo.jpg";
+import { useSearchParams } from "react-router-dom";
+
 import {
   IconButton,
   Box,
@@ -22,6 +24,7 @@ import {
   Checkbox,
   SimpleGrid,
 } from "@chakra-ui/react";
+import Loader from "../Components/Loader"
 import {
   Slider,
   SliderTrack,
@@ -43,6 +46,9 @@ import axios from "axios";
 import { IconType } from "react-icons";
 import { ReactText } from "react";
 
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 interface LinkItemProps {
   name: string;
   icon: IconType;
@@ -61,6 +67,7 @@ export default function SimpleSidebar(
 ) {
   const { title1 } = props;
   const { isOpen, onOpen, onClose } = useDisclosure();
+  
   return (
     <Box minH="100vh" bg={useColorModeValue("gray.100", "gray.900")}>
       <SidebarContent
@@ -94,41 +101,60 @@ interface SidebarProps extends BoxProps {
 }
 
 const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
+
+  const [searchParams,SetSearchParams]=useSearchParams()
+
   const [data, setData] = React.useState([]);
 
-  const [cat,setCat]=React.useState("livingroom")
-  const [checked,setCheck]=React.useState(2)
+  const [category, setCat] = React.useState("livingroom");
+  const [checked, setCheck] = React.useState(2);
+  const [load,Setloader] =React.useState(false)
+
+  
+
+  const success = () =>
+    toast.success(`Category is Updated`, {
+      theme: "colored",
+      position: "bottom-center",
+    });
 
   React.useEffect(() => {
-    getdata(cat);
-  }, [cat]);
+    SetSearchParams({category})
+    getdata(category);
+  }, [category]);
 
-  const getdata = (cat) => {
+  const getdata = (category) => {
+    Setloader(true)
     axios
-      .get(`http://localhost:3000/furniture?category=${cat}`)
+      .get(`http://localhost:3000/furniture?category=${category}`)
       .then((res) => setData(res.data));
+      Setloader(false)
   };
-  const setcategory=(f)=>{
-    setCheck(f[0])
-    if(f[0]==1&&f[1]==true){
-      setCat("bedroom")
-    }else if(f[0]==2&&f[1]==true){
-      setCat("livingroom")
-    }else if(f[0]==3&&f[1]==true){
-      setCat("kitchen")
-    }else if(f[0]==4&&f[1]==true){
-      setCat("wfm") 
+  const setcategory = (f) => {
+    setCheck(f[0]);
+    if (f[0] == 1 && f[1] == true) {
+      setCat("bedroom");
+      success();
+    } else if (f[0] == 2 && f[1] == true) {
+      setCat("livingroom");
+      success();
+    } else if (f[0] == 3 && f[1] == true) {
+      setCat("kitchen");
+      success();
+    } else if (f[0] == 4 && f[1] == true) {
+      setCat("wfm");
+      success();
     }
     //done
     // is left now
-  }
+  };
 
   const Checkboxarr = [
-    { title: "Bed Room",id:1 },
-    { title: "Living Room",id:2 },
+    { title: "Bed Room", id: 1 },
+    { title: "Living Room", id: 2 },
 
-    { title: "Kitchen & Dining",id:3 },
-    { title: "Work From Home (WFM)",id:4 },
+    { title: "Kitchen & Dining", id: 3 },
+    { title: "Work From Home (WFM)", id: 4 },
   ];
   const [sliderValue, setSliderValue] = React.useState(5);
   const [showTooltip, setShowTooltip] = React.useState(false);
@@ -144,6 +170,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
         h="full"
         {...rest}
       >
+       
         <Flex
           borderRadius={"5px"}
           p={5}
@@ -157,10 +184,17 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
             ></Image>
             <Text>Filters</Text>
           </Flex>
-          <Button onClick={()=>setCat("livingroom")} color="white" bg={"red.500"} pr={7} pl={7}>
+          <Button
+            onClick={() => setCat("livingroom")}
+            color="white"
+            bg={"red.500"}
+            pr={7}
+            pl={7}
+          >
             RESET
           </Button>
         </Flex>
+        
 
         <Container borderRadius={"5px"} mt={5} p={5} border="2px solid #E2E8F0">
           {" "}
@@ -261,18 +295,16 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
             {Checkboxarr.map((el) => (
               <Checkbox
                 size="md"
-                onChange={(e) => setcategory([el.id,e.target.checked])}
+                onChange={(e) => setcategory([el.id, e.target.checked])}
                 colorScheme="red"
-                isChecked={el.id==checked?true:false}
-              
-              
+                isChecked={el.id == checked ? true : false}
               >
                 {el.title}
               </Checkbox>
             ))}
           </Stack>
         </Container>
-
+        <ToastContainer />
         <CloseButton display={{ base: "flex", md: "none" }} onClick={onClose} />
 
         {LinkItems.map((link) => (
@@ -280,18 +312,16 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
             {link.name}
           </NavItem>
         ))}
+       
       </Box>
       {/* Th
       is Is the Place where all the Data Appending Will Be Going to Happen */}
 
-      <SimpleGrid
-        columns={[1,2,3]}
-        spacing={[0,9,10]}
-      
-         ml={[0,0,350]}
+      {load?<Loader />:<SimpleGrid
+        columns={[1, 2, 3]}
+        spacing={[0, 9, 10]}
+        ml={[0, 0, 350]}
         textAlign="right"
-     
-       
       >
         {data.map((el) => (
           <ProductCard
@@ -301,7 +331,8 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
             dimg={el.deliveryicon}
           />
         ))}
-      </SimpleGrid>
+      </SimpleGrid>}
+      <ToastContainer />
     </div>
   );
 };

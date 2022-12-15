@@ -5,6 +5,7 @@ import NotFound from "../Pages/NotFound";
 import FurniturePage from "../Pages/FurniturePage";
 import ElectronicsPage from "../Pages/ElectronicsPage"
 import FitnessPage from "../Pages/FitnessPage"
+import SingleProductPage from "../Pages/SingleProductPage";
 
 export default function AllRoutes(props) {
   return (
@@ -15,6 +16,7 @@ export default function AllRoutes(props) {
         <Route path="/furniture" element={<FurniturePage />}/>
         <Route path="/electronics" element={<ElectronicsPage />}/>
         <Route path="/fitness" element={<FitnessPage />}/>
+        <Route path="/products/:1" element={<SingleProductPage />}/>
       
       </Routes>
     </>
