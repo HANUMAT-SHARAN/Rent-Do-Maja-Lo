@@ -120,6 +120,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
       setCat("wfm") 
     }
     //done
+    // is left now
   }
 
   const Checkboxarr = [
