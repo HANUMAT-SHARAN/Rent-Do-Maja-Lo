@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-
+import ProductCard from "../Components/ProductCard";
 import logo from "../Images/logo.jpg";
 import {
   IconButton,
@@ -20,6 +20,7 @@ import {
   Button,
   Stack,
   Checkbox,
+  SimpleGrid,
 } from "@chakra-ui/react";
 import {
   Slider,
@@ -38,7 +39,7 @@ import {
   FiSettings,
   FiMenu,
 } from "react-icons/fi";
-import axios from "axios"
+import axios from "axios";
 import { IconType } from "react-icons";
 import { ReactText } from "react";
 
@@ -54,9 +55,11 @@ const LinkItems = [
   { name: "Settings", icon: FiSettings },
 ];
 
-export default function SimpleSidebar({ children }: { children: ReactNode },props) {
-
-  const {title1}=props
+export default function SimpleSidebar(
+  { children }: { children: ReactNode },
+  props
+) {
+  const { title1 } = props;
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <Box minH="100vh" bg={useColorModeValue("gray.100", "gray.900")}>
@@ -90,28 +93,47 @@ interface SidebarProps extends BoxProps {
   onClose: () => void;
 }
 
-const SidebarContent = ({ onClose, ...rest }: SidebarProps,) => {
+const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
+  const [data, setData] = React.useState([]);
 
-    React.useEffect(()=>{getdata()},[])
-   const getdata=()=>{
-    axios.get(`http://localhost:3000/furniture?category=bedroom`)
-    .then((res)=>console.log(res))
-   }
-     
- 
+  const [cat,setCat]=React.useState("livingroom")
+  const [checked,setCheck]=React.useState(2)
+
+  React.useEffect(() => {
+    getdata(cat);
+  }, [cat]);
+
+  const getdata = (cat) => {
+    axios
+      .get(`http://localhost:3000/furniture?category=${cat}`)
+      .then((res) => setData(res.data));
+  };
+  const setcategory=(f)=>{
+    setCheck(f[0])
+    if(f[0]==1&&f[1]==true){
+      setCat("bedroom")
+    }else if(f[0]==2&&f[1]==true){
+      setCat("livingroom")
+    }else if(f[0]==3&&f[1]==true){
+      setCat("kitchen")
+    }else if(f[0]==4&&f[1]==true){
+      setCat("wfm")
+    }
+  }
+
   const Checkboxarr = [
-    { title: "Bed Room" },
-    { title: "Living Room" },
-   
-    { title: "Kitchen & Dining" },
-    { title: "Work From Home (WFM)" },
+    { title: "Bed Room",id:1 },
+    { title: "Living Room",id:2 },
+
+    { title: "Kitchen & Dining",id:3 },
+    { title: "Work From Home (WFM)",id:4 },
   ];
   const [sliderValue, setSliderValue] = React.useState(5);
   const [showTooltip, setShowTooltip] = React.useState(false);
-  console.log(sliderValue);
+
   return (
-    <div > 
-      <Box 
+    <div>
+      <Box
         bg={useColorModeValue("white", "gray.900")}
         borderRight="1px"
         borderRightColor={useColorModeValue("gray.200", "gray.700")}
@@ -133,7 +155,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps,) => {
             ></Image>
             <Text>Filters</Text>
           </Flex>
-          <Button color="white" bg={"red.500"} pr={7} pl={7}>
+          <Button onClick={()=>setCat("livingroom")} color="white" bg={"red.500"} pr={7} pl={7}>
             RESET
           </Button>
         </Flex>
@@ -222,7 +244,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps,) => {
         <SliderThumb />
       </Tooltip>
     </Slider> */}
-        {/* <Container borderRadius={"5px"} mt={5} p={5} border="2px solid #E2E8F0">
+        <Container borderRadius={"5px"} mt={5} p={5} border="2px solid #E2E8F0">
           <Stack spacing={[1, 5]}>
             <Flex alignItems={"center"} textAlign={"left"}>
               {" "}
@@ -235,26 +257,49 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps,) => {
             </Flex>
 
             {Checkboxarr.map((el) => (
-              <Checkbox size="md" onChange={(e)=>console.log(e.target.checked)} colorScheme="red" >
+              <Checkbox
+                size="md"
+                onChange={(e) => setcategory([el.id,e.target.checked])}
+                colorScheme="red"
+                isChecked={el.id==checked?true:false}
+              
+              
+              >
                 {el.title}
               </Checkbox>
             ))}
           </Stack>
-        </Container> */}
+        </Container>
 
         <CloseButton display={{ base: "flex", md: "none" }} onClick={onClose} />
-
 
         {LinkItems.map((link) => (
           <NavItem key={link.name} icon={link.icon}>
             {link.name}
           </NavItem>
-          
         ))}
-        <Box>dfdsfdsfsdfsdfsdfsdfsf</Box>
       </Box>
-      {/* This Is the Place where all the Data Appending Will Be Going to Happen */}
+      {/* Th
+      is Is the Place where all the Data Appending Will Be Going to Happen */}
 
+      <SimpleGrid
+        columns={[1,2,3]}
+        spacing={[0,9,10]}
+      
+         ml={[0,0,350]}
+        textAlign="right"
+     
+       
+      >
+        {data.map((el) => (
+          <ProductCard
+            img={el.img}
+            price={el.price}
+            title={el.title}
+            dimg={el.deliveryicon}
+          />
+        ))}
+      </SimpleGrid>
     </div>
   );
 };
@@ -326,6 +371,5 @@ const MobileNav = ({ onOpen, ...rest }: MobileProps) => {
         Logo
       </Text>
     </Flex>
-  
   );
 };

@@ -4,6 +4,7 @@ import Navbar from '../Components/Navbar'
 import PagesNavbar from '../Components/PagesNavbar'
 
 
+
 export default function FurniturePage(props) {
     
 
@@ -11,7 +12,8 @@ export default function FurniturePage(props) {
         <>
         <Navbar />
         <PagesNavbar />
-       <SimpleSidebar title1={"bed"} />
+       <SimpleSidebar  title1={"bed"} />
+       
        
         </>
     )
