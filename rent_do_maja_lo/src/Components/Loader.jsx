@@ -3,11 +3,12 @@ import { Skeleton, Box, SkeletonCircle, SkeletonText } from "@chakra-ui/react";
 export default function Loader(props) {
   return (
     <>
-      <Box padding="6" boxShadow="lg" bg="white">
-        <SkeletonCircle size="10" />
-        <SkeletonText mt="4" noOfLines={4} spacing="4" skeletonHeight="2" />
+      <Box padding="15"  boxShadow="lg" bg="white">
+        <Skeleton />
+        <SkeletonCircle size="50" />
+        <SkeletonText mt="4" noOfLines={4} spacing="5" skeletonHeight="5" />
       </Box>
-      Llllll......
+      
     </>
   );
 }

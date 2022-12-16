@@ -74,9 +74,9 @@ export default function Home(props) {
         m="auto"
         mt={10}
         alignItems={"center"}
-        w={1200}
-        columns={{ base: 2, md: 3, lg: 5, xl: 6,  }}
-        gap="4px"
+     
+        columns={{ base: 3, md: 4, lg: 5, xl: 6,  }}
+       gap="20px"
       >
         {boxarr.map((el) => (
           <Box
@@ -92,7 +92,7 @@ export default function Home(props) {
               justifyContent: "center",
             }}
           >
-            {<Image w={"60px"} src={el.img} alt={el.title}></Image>}{" "}
+            {<Image w={"50px"} src={el.img} alt={el.title}></Image>}{" "}
             <Text mt={5}>{el.title}</Text>{" "}
           </Box>
         ))}
