@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../Pages/carousel.css";
+import { Image } from "@chakra-ui/react";
 
 export default function HomePageCarousel(props) {
   var settings = {
@@ -20,35 +21,36 @@ export default function HomePageCarousel(props) {
       style={{ marginLeft: "80px", marginRight: "80px" }}
     >
       <Slider  {...settings} autoplay={true}>
-        <img
-          style={{ width: "1000px" }}
+        <Image
+         width={[600,900,1000]}
           src="https://s.rmjo.in/Fitness-offer-banner-for-Web--2.jpg"
           alt=""
-        />
+        ></Image>
 
-        <img
-          style={{ width: "1000px" }}
+        <Image
+          width={[600,800,1000]}
           src="https://s.rmjo.in/AirOKWeb%20(1).png"
           alt=""
-        />
+        ></Image>
 
-        <img
-          style={{ width: "1000px" }}
+        <Image
+          width={[600,800,1000]}
           src={"https://s.rmjo.in/AC-Offer-Banner-Web-.jpg"}
           alt=""
-        />
+        ></Image>
 
-        <img
-          style={{ width: "1000px" }}
+        <Image
+          width={[600,800,1000]}
           src={"https://s.rmjo.in/Paytm-Bank-Desktop-banner-%20(1).jpg"}
           alt=""
-        />
+        ></Image>
 
-        <img
-          style={{ width: "1000px" }}
+        <Image
+          width={[600,800,1000]}
+          
           src={"https://s.rmjo.in/WP-Web.png"}
           alt=""
-        />
+        ></Image>
       </Slider>
     </div>
   );

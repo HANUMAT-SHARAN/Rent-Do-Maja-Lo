@@ -49,10 +49,7 @@ import { ReactText } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-interface LinkItemProps {
-  name: string;
-  icon: IconType;
-}
+
 const LinkItems = [
   { name: "Home", icon: FiHome },
   { name: "Trending", icon: FiTrendingUp },
@@ -61,11 +58,9 @@ const LinkItems = [
   { name: "Settings", icon: FiSettings },
 ];
 
-export default function SimpleSidebar(
-  { children }: { children: ReactNode },
-  props
-) {
-  const { title1 } = props;
+export default function SimpleSidebar(props) {
+  const {children,title1}=props
+ 
   const { isOpen, onOpen, onClose } = useDisclosure();
   
   return (
@@ -96,11 +91,11 @@ export default function SimpleSidebar(
   );
 }
 
-interface SidebarProps extends BoxProps {
-  onClose: () => void;
-}
+// interface SidebarProps extends BoxProps {
+//   onClose: () => void;
+// }
 
-const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
+const SidebarContent = ({ onClose, ...rest }) => {
 
   const [searchParams,SetSearchParams]=useSearchParams()
 
@@ -119,16 +114,25 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
     });
 
   React.useEffect(() => {
-    SetSearchParams({category})
+    Setloader(true)
     getdata(category);
+   
+    SetSearchParams({category})
+    
+ 
   }, [category]);
 
   const getdata = (category) => {
-    Setloader(true)
+    // Setloader(true)
     axios
       .get(`http://localhost:3000/furniture?category=${category}`)
-      .then((res) => setData(res.data));
-      Setloader(false)
+      .then((res) =>{
+      Setloader(true)
+       setData(res.data)
+      
+       Setloader(false)});
+      
+     
   };
   const setcategory = (f) => {
     setCheck(f[0]);
@@ -148,6 +152,9 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
     //done
     // is left now
   };
+ 
+  console.log(load)
+  
 
   const Checkboxarr = [
     { title: "Bed Room", id: 1 },
@@ -161,12 +168,16 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
 
   return (
     <div>
+      <Flex>
       <Box
+      
         bg={useColorModeValue("white", "gray.900")}
         borderRight="1px"
         borderRightColor={useColorModeValue("gray.200", "gray.700")}
         w={{ base: "full", md: 300 }}
-        pos="fixed"
+            pos="relative"
+          right={0}
+        
         h="full"
         {...rest}
       >
@@ -292,7 +303,7 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
               <Text ml={1}>CATEGORIES</Text>
             </Flex>
 
-            {Checkboxarr.map((el) => (
+            {Checkboxarr&&Checkboxarr.map((el) => (
               <Checkbox
                 size="md"
                 onChange={(e) => setcategory([el.id, e.target.checked])}
@@ -307,23 +318,43 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
         <ToastContainer />
         <CloseButton display={{ base: "flex", md: "none" }} onClick={onClose} />
 
-        {LinkItems.map((link) => (
+        {LinkItems&&LinkItems.map((link) => (
           <NavItem key={link.name} icon={link.icon}>
             {link.name}
           </NavItem>
         ))}
-       
+      
       </Box>
+    
+      <SimpleGrid
+       position="relative"
+        columns={[1, 2, 3]}
+        spacing={[0, 9, 10]}
+        ml={20}
+     
+        textAlign="right"
+      >
+        {data&&data.map((el) => (
+          load?<Loader />:<ProductCard
+            img={el.img}
+            price={el.price}
+            title={el.title}
+            dimg={el.deliveryicon}
+          />
+        ))}
+      </SimpleGrid> 
+      </Flex>
       {/* Th
       is Is the Place where all the Data Appending Will Be Going to Happen */}
-
+{/* 
       {load?<Loader />:<SimpleGrid
+       position="relative"
         columns={[1, 2, 3]}
         spacing={[0, 9, 10]}
         ml={[0, 0, 350]}
         textAlign="right"
       >
-        {data.map((el) => (
+        {data&&data.map((el) => (
           <ProductCard
             img={el.img}
             price={el.price}
@@ -331,17 +362,34 @@ const SidebarContent = ({ onClose, ...rest }: SidebarProps) => {
             dimg={el.deliveryicon}
           />
         ))}
-      </SimpleGrid>}
+      </SimpleGrid>} */}
       <ToastContainer />
+
+      {/* {load?<Loader />:<SimpleGrid
+       position="relative"
+        columns={[1, 2, 3]}
+        spacing={[0, 9, 10]}
+        ml={[0, 0, 350]}
+        textAlign="right"
+      >
+        {data&&data.map((el) => (
+          <ProductCard
+            img={el.img}
+            price={el.price}
+            title={el.title}
+            dimg={el.deliveryicon}
+          />
+        ))}
+      </SimpleGrid>} */}
     </div>
   );
 };
 
-interface NavItemProps extends FlexProps {
-  icon: IconType;
-  children: ReactText;
-}
-const NavItem = ({ icon, children, ...rest }: NavItemProps) => {
+// interface NavItemProps extends FlexProps {
+//   icon: IconType;
+//   children: ReactText;
+// }
+const NavItem = ({ icon, children, ...rest }) => {
   return (
     <Link
       href="#"
@@ -377,10 +425,10 @@ const NavItem = ({ icon, children, ...rest }: NavItemProps) => {
   );
 };
 
-interface MobileProps extends FlexProps {
-  onOpen: () => void;
-}
-const MobileNav = ({ onOpen, ...rest }: MobileProps) => {
+// interface MobileProps extends FlexProps {
+//   onOpen: () => void;
+// }
+const MobileNav = ({ onOpen, ...rest }) => {
   return (
     <Flex
       ml={{ base: 0, md: 60 }}
