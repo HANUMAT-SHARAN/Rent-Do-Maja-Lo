@@ -607,197 +607,219 @@
     {
       "img": "https://p.rmjo.in/productSquare/jic4j4hh-500x500.jpg",
       "title": "Napster Metal Queen Bed (6x5)",
-      "price": "₹359/",
+      "price": 359,
       "category": "bedroom",
+      "id": 1,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/ygmpue5m-500x500.jpg",
       "title": "Aurora Wooden Queen Bed (6x5)",
-      "price": "₹609/",
+      "price": 609,
       "category": "bedroom",
+      "id": 2,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/nuj33rrq-500x500.jpg",
       "title": "Napster Metal Single Bed (6x3)",
-      "price": "₹279/",
+      "price": 279,
       "category": "bedroom",
+      "id": 3,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/tncocgko-500x500.jpg",
       "title": "Poise Wooden Queen Bed (6x5)",
-      "price": "₹619/",
+      "price": 619,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/lpm7f0x2-500x500.jpg",
       "title": "Poise Wooden King Bed (6x6)",
-      "price": "₹759/",
+      "price": 759,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/hc4dc706-500x500.jpg",
       "title": "Atticus Wooden Single Platform Bed (6x3)",
-      "price": "₹379/",
+      "price": 379,
       "category": "bedroom",
+      "id": 4,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Kipper Wooden Queen Bed (6x5)",
-      "price": "₹919/",
+      "price": 919,
       "category": "bedroom",
+      "id": 5,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Aurora Wooden Single Bed (6x3)",
-      "price": "₹469/",
+      "price": 469,
       "category": "bedroom",
+      "id": 6,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Hutch Metal Queen Hydraulic Storage Bed (6x5)",
-      "price": "₹1479/",
+      "price": 1460,
       "category": "bedroom",
+      "id": 7,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Hiber Wooden Queen Storage Bed (6x5)",
-      "price": "₹1049/",
+      "price": 1039,
       "category": "bedroom",
+      "id": 8,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Napster Metal Queen Bed (White 6x5)",
-      "price": "₹549/",
+      "price": 549,
       "category": "bedroom",
+      "id": 9,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Poise Wooden Single Bed (6.5x3)",
-      "price": "₹469/",
+      "price": 469,
       "category": "bedroom",
+      "id": 10,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Kipper Wooden Single Bed (6x3)",
-      "price": "₹689/",
+      "price": 690,
       "category": "bedroom",
+      "id": 11,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Single Foam Mattress (6x3)",
-      "price": "₹169/",
+      "price": 169,
       "category": "bedroom",
+      "id": 12,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Queen Spring Mattress (6x5)",
-      "price": "₹589/",
+      "price": 589,
       "category": "bedroom",
+      "id": 13,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Single Coir and Foam Mattress (6x3)",
-      "price": "₹199/",
+      "price": 199,
       "category": "bedroom",
+      "id": 14,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Set Of 2 Single Foam Mattress (6x3)",
-      "price": "₹309/",
+      "price": 309,
       "category": "bedroom",
+      "id": 15,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Single Ortho Memory Foam Mattress by Wakefit (6x3)",
-      "price": "₹399/",
+      "price": 399,
       "category": "bedroom",
+      "id": 16,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Single Spring Mattress (6x3)",
-      "price": "₹349/",
+      "price": 359,
       "category": "bedroom",
+      "id": 17,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Single XL Coir & Foam Mattress (6.6x3)",
-      "price": "₹219/",
+      "price": 219,
       "category": "bedroom",
+      "id": 18,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Single Ortho Pocket Spring Mattress (6X3)",
-      "price": "₹509/",
+      "price": 509,
       "category": "bedroom",
+      "id": 19,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Single XL Ortho Memory Foam Mattress by Wakefit (6.6x3)",
-      "price": "₹349/",
+      "price": 350,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Single Ortho Memory Foam Mattress (6X3)",
-      "price": "₹349/",
+      "price": 350,
       "category": "bedroom",
+      "id": 20,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Single XL Ortho Memory Foam Mattress (6.6X3)",
-      "price": "₹349/",
+      "price": 350,
       "category": "bedroom",
+      "id": 21,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Set of 2 Single XL Ortho Mattress by Wakefit (6.6x3)",
-      "price": "₹649/",
+      "price": 650,
       "category": "bedroom",
+      "id": 22,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
@@ -805,378 +827,417 @@
       "img": "https://p.rmjo.in/productSquare/esf6ag3q-500x500.jpg",
       "title": "Morris Office Chair",
       "category": "wfm",
-      "price": "₹219/",
+      "id": 36,
+      "price": 219,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/qu9y4szh-500x500.jpg",
       "title": "Alex Office Chair",
-      "price": "₹299/",
+      "price": 300,
       "category": "wfm",
+      "id": 37,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/mnuazvk3-500x500.jpg",
       "title": "Miller Office Chair",
-      "price": "₹169/",
+      "price": 169,
       "category": "wfm",
+      "id": 38,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/r10yzhnd-500x500.jpg",
       "title": "Adde White Chair by Ikea",
-      "price": "₹69/",
+      "price": 69,
       "category": "wfm",
+      "id": 39,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/42x0oq6e-500x500.jpg",
       "title": "Garfield Ottoman",
-      "price": "₹219/",
+      "price": 219,
       "category": "wfm",
+      "id": 40,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/em6h6xgy-500x500.jpg",
       "title": "Poise Metal Chair",
-      "price": "₹129/",
+      "price": 129,
       "category": "wfm",
+      "id": 41,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/1eoam6o5-500x500.jpg",
       "title": "Mammut Children Chair by Ikea",
-      "price": "₹79/",
+      "price": 79,
       "category": "wfm",
+      "id": 42,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/d25jc9wi-500x500.jpg",
       "title": "Stowy 2-Door Wardrobe",
-      "price": "₹459/",
+      "price": 459,
       "category": "wfm",
+      "id": 43,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/uonj4p80-500x500.jpg",
       "title": "Hutch 2-Door Wardrobe",
-      "price": "₹469/",
+      "price": 470,
       "category": "wfm",
+      "id": 44,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/dwp7yb0x-500x500.jpg",
       "title": "Betty Dresser with Stool",
-      "price": "₹219/",
+      "price": 219,
       "category": "wfm",
+      "id": 45,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/lu0w6lpn-500x500.jpg",
       "title": "Magnum 2-Door Wardrobe",
-      "price": "₹509/",
+      "price": 509,
       "category": "wfm",
+      "id": 46,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/aw3vqf50-500x500.jpg",
       "title": "Magnum 3-Door Wardrobe",
-      "price": "₹809/",
+      "price": 809,
       "category": "wfm",
+      "id": 47,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/dwp7yb0x-500x500.jpg",
       "title": "Magnum 1-Door Wardrobe",
-      "price": "₹299/",
+      "price": 300,
       "category": "wfm",
+      "id": 48,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/2yrmpjxd-500x500.jpg",
       "title": "Avian 2-Door Wardrobe",
-      "price": "₹539/",
+      "price": 539,
       "category": "bedroom",
+      "id": 23,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/42x0oq6e-500x500.jpg",
       "title": "Stuart Study Table",
-      "price": "₹169/",
+      "price": 169,
       "category": "wfm",
+      "id": 65,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Leonard Metal Study Table",
-      "price": "₹419/",
-      "category":"wfm",
+      "price": 419,
+      "category": "wfm",
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Poise Study Table",
-      "price": "₹259/",
-      "category":"wfm",
+      "price": 250,
+      "category": "wfm",
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Klismos Wooden Study Table",
-      "price": "₹429/",
+      "price": 429,
       "category": "wfm",
+      "id": 49,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/9o9eoir3-500x500.jpg",
       "title": "Rex 3-Seater Leather Sofa ",
-      "price": "₹739/",
+      "price": 739,
       "category": "livingroom",
+      "id": 71,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/u99cxuq8-500x500.jpg",
       "title": "Barney Leather Recliner ",
-      "price": "₹899/",
+      "price": 899,
       "category": "livingroom",
+      "id": 72,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/p4sjk438-500x500.jpg",
       "title": "Casper 3-Seater Fabric Sofa ",
-      "price": "₹809/",
+      "price": 809,
       "category": "livingroom",
+      "id": 73,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/k8bt1nao-500x500.jpg",
       "title": "Felix 1-Seater Fabric Sofa ",
-      "price": "₹429/",
+      "price": 429,
       "category": "livingroom",
+      "id": 74,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/r10yzhnd-500x500.jpg",
       "title": "Casper L-Shaped Fabric Sofa ",
-      "price": "₹1249/",
+      "price": 1249,
       "category": "livingroom",
+      "id": 75,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/8eeku6mr-500x500.jpg",
       "title": "Aqua 3-Seater Fabric Sofa ",
-      "price": "₹1039/",
+      "price": 1040,
       "category": "livingroom",
+      "id": 76,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/78g15fel-500x500.jpg",
       "title": "Casper 1-Seater Fabric Sofa",
-      "price": "₹339/",
+      "price": 339,
       "category": "livingroom",
+      "id": 77,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/97kk6wh2-500x500.jpg",
       "title": "Brooklyn 1-Seater Fabric Sofa (Burgundy)",
-      "price": "₹299/",
+      "price": 299,
       "category": "livingroom",
+      "id": 78,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/33o6pfrf-500x500.jpg",
       "title": "Brooklyn 1-Seater Fabric Sofa ",
-      "price": "₹299/",
+      "price": 299,
       "category": "livingroom",
+      "id": 79,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/nodkb0rc-500x500.jpg",
       "title": "Wingman Wooden Bedside Table",
-      "price": "₹239/",
+      "price": 239,
       "category": "livingroom",
-     
+      "id": 80,
+
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Watson Wooden Bedside Table",
-      "price": "₹199/",
+      "title": 199,
       "category": "wfm",
+      "id": 50,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Latte Wooden Coffee Table",
-      "price": "₹279/",
+      "price": 279,
       "category": "wfm",
+      "id": 51,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Mocha Centre Table",
-      "price": "₹79/",
+      "price": 89,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Caramel 4-Seater Wooden Coffee Table",
-      "price": "₹619/",
+      "price": 619,
       "category": "wfm",
+      "id": 52,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Espresso Centre Table",
-      "price": "₹169/",
+      "price": 169,
       "category": "wfm",
+      "id": 53,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/ex4nji40-500x500.jpg",
       "title": "Downey Wooden Bar Unit",
-      "price": "₹349/",
+      "price": 349,
       "category": "livingroom",
+      "id": 81,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Vienna End Table",
-      "price": "₹149/",
+      "price": 149,
       "category": "wfm",
+      "id": 54,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Poise Metal Table",
-      "price": "₹309/",
+      "price": 309,
       "category": "wfm",
+      "id": 55,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Michelle 4-Seater Dining Table & Chairs",
-      "price": "₹1069/",
+      "price": 1069,
       "category": "kitchen",
+      "id": 118,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Poise 2-Seater Dining Table & Chairs",
-      "price": "₹509/",
+      "price": 509,
       "category": "kitchen",
+      "id": 119,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Poise 4-Seater Dining Table & Chairs",
-      "price": "₹889/",
+      "price": 889,
       "category": "kitchen",
+      "id": 120,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Poise 6-Seater Dining Table & Chairs",
-      "price": "₹1249/",
+      "price": 1249,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Gordon 6-Seater Dining Table & Chairs",
-      "price": "₹1299/",
+      "price": 1999,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Poise 3 Seater Dining Table & Chairs",
-      "price": "₹609/",
+      "price": 609,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/kne7dsva-500x500.jpg",
       "title": "Alton 6-Seater Dining Table & Chairs",
-      "price": "₹1339/",
+      "price": 1399,
       "category": "livingroom",
+      "id": 82,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/5nbmarso-500x500.jpg",
       "title": "Rowling Bookshelf Medium",
-      "price": "₹119/",
+      "price": 119,
       "category": "livingroom",
+      "id": 83,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Rowling Bookshelf Small",
-      "price": "₹119/",
+      "price": 199,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/i19t7iix-500x500.jpg",
       "title": "Rowling Bookshelf Large",
-      "price": "₹419/",
+      "price": 419,
       "category": "livingroom",
+      "id": 84,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/sc4mwkso-500x500.jpg",
       "title": "Saddle Shoe Rack Large",
-      "price": "₹219/",
+      "price": 219,
       "category": "livingroom",
+      "id": 85,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Filbert Chest of Drawers",
-      "price": "₹269/",
+      "price": 269,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
@@ -1184,525 +1245,574 @@
       "img": "https://p.rmjo.in/productSquare/fo8oo4id-500x500.jpg",
       "title": "Pixar TV Unit",
       "category": "livingroom",
-      "price": "₹259/",
+      "id": 86,
+      "price": 259,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "IKEA Mammut Table & Chair Set",
-      "price": "₹279/",
+      "price": 279,
       "category": "livingroom",
+      "id": 87,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Moonshine Bar Unit",
-      "price": "₹459/",
+      "price": 459,
       "category": "livingroom",
+      "id": 88,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Hiber Wooden Single Storage Bed (6x3)",
-      "price": "₹539/",
+      "price": 539,
       "category": "bedroom",
+      "id": 24,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Elma Wooden Queen Bed (6.5x5)",
-      "price": "₹859/",
+      "price": 859,
       "category": "bedroom",
+      "id": 25,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Restie Metal Single Bed (6x3)",
-      "price": "₹259/",
+      "price": 259,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Restie Metal Queen Bed (6x5)",
-      "price": "₹359/",
+      "price": 359,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Marley Wooden Queen Bed (6x5)",
-      "price": "₹1249/",
+      "price": 1249,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Napster Metal Compact Queen Bed (6x4)",
-      "price": "₹269/",
+      "price": 279,
       "category": "bedroom",
+      "id": 26,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Metal Single Bed by IKEA (6.6x3)",
-      "price": "₹229/",
+      "price": 229,
       "category": "bedroom",
+      "id": 27,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Restie Metal Compact Queen Bed (6x4)",
-      "price": "₹299/",
+      "price": 299,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Almos Wooden Queen Upholstery Bed (6x5)",
-      "price": "₹1419/",
+      "price": 1411,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Kipper Wooden Queen Storage Bed (6x5)",
-      "price": "₹1579/",
+      "price": 1579,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Queen Foam Mattress (6x5)",
-      "price": "₹299/",
+      "price": 299,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Queen Coir & Foam Mattress (6x5)",
-      "price": "₹339/",
+      "price": 399,
       "category": "bedroom",
+      "id": 28,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "King Coir & Foam Mattress (6.6x6)",
-      "price": "₹399/",
+      "price": 399,
       "category": "bedroom",
+      "id": 29,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Queen Ortho Memory Foam Mattress by Wakefit (6x5)",
-      "price": "₹779/",
+      "price": 449,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "King Ortho Memory Foam Mattress by Wakefit (6.6x6)",
-      "price": "₹779/",
+      "price": 999,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Compact Queen Foam Mattress (6x4)",
-      "price": "₹159/",
+      "price": 159,
       "category": "bedroom",
+      "id": 30,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Queen Ortho Memory Foam Mattress (6X5)",
-      "price": "₹529/",
+      "price": 529,
       "category": "bedroom",
+      "id": 31,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Queen Ortho Pocket Spring Mattress (6x5)",
-      "price": "₹699/",
+      "price": 799,
       "category": "bedroom",
+      "id": 32,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Compact Queen Coir & Foam Mattress (6x4)",
-      "price": "₹259/",
+      "price": 260,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Single XL Ortho Pocket Spring Mattress (6.6X3)",
-      "price": "₹509/",
+      "price": 509,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "King Ortho Pocket Spring Mattress (6.6X6)",
-      "price": "₹819/",
+      "price": 819,
       "category": "bedroom",
+      "id": 33,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "King Ortho Memory Foam Mattress (6.6X6)",
-      "price": "₹629/",
+      "price": 629,
       "category": "bedroom",
+      "id": 34,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Adde Grey Chair by Ikea",
-      "price": "₹69/",
+      "price": 69,
       "category": "wfm",
+      "id": 56,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Hugo Office Chair",
-      "price": "₹299/",
+      "price": 299,
       "category": "wfm",
+      "id": 57,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Stowy 1-Door Wardrobe",
-      "price": "₹239/",
+      "price": 977,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Kipper 2-Door Wardrobe",
-      "price": "₹649/",
+      "price": 649,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Kipper 2-Door Wardrobe (Large)",
-      "price": "₹539/",
+      "price": 540,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Hudson 2-Door Wardrobe",
-      "price": "₹349/",
+      "price": 369,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Glazy 2-Door Wardrobe",
-      "price": "₹469/",
+      "price": 568,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Geller 2-Door Wardrobe",
-      "price": "₹859/",
+      "price": 578,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Dombas 3-Door Wardrobe by IKEA",
-      "price": "₹459/",
+      "price": 583,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Emily Metal Study Table White",
-      "price": "₹199/",
+      "price": 199,
       "category": "wfm",
+      "id": 58,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Howard Study Table",
-      "price": "₹109/",
+      "price": 100,
       "delivery": "",
       "category": "wfm",
+      "id": 59,
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Vittsjo Laptop Table",
-      "price": "₹169/",
+      "price": 127,
       "category": "wfm",
+      "id": 60,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Sheldon Study Table",
-      "price": "₹189/",
+      "price": 189,
       "category": "wfm",
+      "id": 61,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Oliver 3-Seater Fabric Sofa ",
-      "price": "₹629/",
+      "price": 699,
       "category": "livingroom",
+      "id": 89,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Felix 3-Seater Fabric Sofa ",
-      "price": "₹889/",
+      "price": 559,
       "delivery": "",
       "category": "livingroom",
+      "id": 90,
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Oliver 2-Seater Fabric Sofa ",
-      "price": "₹379/",
+      "price": 239,
       "category": "livingroom",
+      "id": 91,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Garfield 3-Seater Fabric Sofa ",
-      "price": "₹889/",
+      "price": 889,
       "category": "livingroom",
+      "id": 92,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Cheshire Fabric Sofa cum Bed (Green)",
-      "price": "₹1189/",
+      "price": 1189,
       "category": "livingroom",
+      "id": 93,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Harvey Fabric Sofa cum Bed ",
-      "price": "₹1119/",
+      "price": 1192,
       "category": "livingroom",
+      "id": 94,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Rex 1-Seater Leather Sofa ",
-      "price": "₹359/",
+      "price": 360,
       "category": "livingroom",
+      "id": 95,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Garfield 1-Seater Fabric Sofa ",
-      "price": "₹429/",
+      "price": 429,
       "category": "livingroom",
+      "id": 96,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Leo 3-Seater Fabric Sofa ",
-      "price": "₹1039/",
+      "price": 1039,
       "category": "livingroom",
+      "id": 97,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Leo 3-Seater Fabric Sofa ",
-      "price": "₹889/",
+      "price": 889,
       "category": "livingroom",
+      "id": 98,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Regina 3-Seater Fabric Sofa (Green)",
-      "price": "₹769/",
+      "price": 769,
       "category": "livingroom",
+      "id": 99,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Robin Futon Blue Large",
-      "price": "₹549/",
+      "price": 549,
       "category": "livingroom",
+      "id": 100,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Brooklyn 3-Seater Fabric Sofa ",
-      "price": "₹1069/",
+      "price": 1078,
       "category": "livingroom",
+      "id": 101,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Robin Futon Red Large",
-      "price": "₹549/",
+      "price": 549,
       "category": "livingroom",
+      "id": 102,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Pearl 3-Seater Fabric Sofa ",
-      "price": "₹769/",
+      "price": 679,
       "category": "livingroom",
+      "id": 103,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Robin Futon Red Small",
-      "price": "₹419/",
+      "price": 567,
       "category": "livingroom",
+      "id": 104,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Moonstone 3-Seater Fabric Sofa ",
-      "price": "₹1119/",
+      "price": 1212,
       "category": "livingroom",
+      "id": 105,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Velma 3-Seater Fabric Sofa (Teal)",
-      "price": "₹549/",
+      "price": 122,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Leo 3-Seater Fabric Sofa (Wine Grey)",
-      "price": "₹889/",
+      "price": 886,
       "category": "livingroom",
+      "id": 106,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Parker Fabric Sofa Cum Bed",
-      "price": "₹1119/",
+      "price": 1119,
       "category": "livingroom",
+      "id": 107,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Robin Futon Blue Small",
-      "price": "₹419/",
+      "price": 419,
       "category": "livingroom",
+      "id": 108,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Brooklyn L-Shaped Fabric Sofa (Burgundy",
-      "price": "₹1339/",
+      "price": 1399,
       "delivery": "",
       "category": "livingroom",
+      "id": 109,
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Brooklyn L-Shaped Fabric Sofa ",
-      "price": "₹1339/",
+      "price": 1209,
       "category": "livingroom",
+      "id": 110,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Velma 1-Seater Fabric Sofa (Teal)",
-      "price": "₹299/",
+      "price": 299,
       "category": "livingroom",
+      "id": 111,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Brooklyn 3-Seater Fabric Sofa (Burgundy)",
-      "price": "₹1069/",
+      "price": 1099,
       "category": "livingroom",
+      "id": 112,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Roma 3-Seater Fabric Sofa (Teal Green)",
-      "price": "₹1159/",
+      "price": 1100,
       "category": "livingroom",
+      "id": 113,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Oliver 2-Seater Fabric Sofa (White)",
-      "price": "₹459/",
-      "category": "livingroom",
+      "price": 388,
+
       "category": "wfm",
+      "id": 61,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Regina 3-Seater Fabric Sofa (White)",
-      "price": "₹819/",
+      "price": 879,
       "category": "livingroom",
+      "id": 114,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Roma 3-Seater Fabric Sofa (Dark Blue)",
-      "price": "₹1159/",
+      "price": 1299,
       "category": "livingroom",
+      "id": 116,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Oliver 3-Seater Fabric Sofa (White)",
-      "price": "₹589/",
+      "price": 679,
       "category": "livingroom",
+      "id": 115,
       "delivery": "",
       "deliveryicon": ""
     },
@@ -1710,7 +1820,8 @@
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Minion Bedside Table",
       "category": "wfm",
-      "price": "₹89/",
+      "id": 62,
+      "price": 99,
       "delivery": "",
       "deliveryicon": ""
     },
@@ -1718,7 +1829,8 @@
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Stooge Bedside Table",
       "category": "wfm",
-      "price": "₹79/",
+      "id": 63,
+      "price": 79,
       "delivery": "",
       "deliveryicon": ""
     },
@@ -1726,7 +1838,8 @@
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Cuppa Centre Table",
       "category": "wfm",
-      "price": "₹119/",
+      "id": 64,
+      "price": 129,
       "delivery": "",
       "deliveryicon": ""
     },
@@ -1734,7 +1847,8 @@
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Perk 4-Seater Wooden Coffee Table",
       "category": "kitchen",
-      "price": "₹539/",
+      "id": 121,
+      "price": 546,
       "delivery": "",
       "deliveryicon": ""
     },
@@ -1742,7 +1856,8 @@
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Gladom Table by IKEA",
       "category": "kitchen",
-      "price": "₹99/",
+      "id": 122,
+      "price": 99,
       "delivery": "",
       "deliveryicon": ""
     },
@@ -1750,14 +1865,15 @@
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Vienna Coffee Table",
       "category": "kitchen",
-      "price": "₹199/",
+      "id": 123,
+      "price": 199,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Java Center Table/ TV Unit",
-      "price": "₹119/",
+      "price": 119,
       "delivery": "",
       "deliveryicon": ""
     },
@@ -1765,7 +1881,8 @@
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Lack Coffee Table by IKEA",
       "category": "kitchen",
-      "price": "₹129/",
+      "id": 124,
+      "price": 129,
       "delivery": "",
       "deliveryicon": ""
     },
@@ -1773,28 +1890,29 @@
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Andrew Center Table",
       "category": "kitchen",
-      "price": "₹299/",
+      "id": 125,
+      "price": 299,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Venti Centre Table",
-      "price": "₹339/",
+      "price": 340,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Tyler 6-Seater Dining Table & Chairs",
-      "price": "₹979/",
+      "price": 980,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Gordon 4-Seater Dining Table & Chairs",
-      "price": "₹889/",
+      "price": 889,
       "delivery": "",
       "deliveryicon": ""
     },
@@ -1802,7 +1920,8 @@
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Tyler 4-Seater Dining Table & Chairs",
       "category": "kitchen",
-      "price": "₹779/",
+      "id": 126,
+      "price": 779,
       "delivery": "",
       "deliveryicon": ""
     },
@@ -1810,7 +1929,8 @@
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Caramel 4-Seater Coffee Table ",
       "category": "kitchen",
-      "price": "₹709/",
+      "id": 127,
+      "price": 709,
       "delivery": "",
       "deliveryicon": ""
     },
@@ -1818,7 +1938,8 @@
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Marco 4-Seater Dining Table & Chairs",
       "category": "kitchen",
-      "price": "₹879/",
+      "id": 128,
+      "price": 870,
       "delivery": "",
       "deliveryicon": ""
     },
@@ -1826,14 +1947,15 @@
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "IKEA Tarno Outdoor Table & Chairs",
       "category": "kitchen",
-      "price": "₹279/",
+      "id": 129,
+      "price": 279,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Heston 6-Seater Dining Table & Chairs",
-      "price": "₹769/",
+      "price": 770,
       "delivery": "",
       "deliveryicon": ""
     },
@@ -1841,15 +1963,17 @@
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Melltorp & Adde Dining Table (White)",
       "category": "kitchen",
-      "price": "₹149/",
+      "id": 130,
+      "price": 150,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Alton 4-Seater Dining Table & Chairs",
-      "price": "₹959/",
+      "price": 989,
       "category": "kitchen",
+      "id": 131,
       "delivery": "",
       "deliveryicon": ""
     },
@@ -1857,7 +1981,8 @@
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Marco 6-Seater Dining Table & Chairs",
       "category": "kitchen",
-      "price": "₹1209/",
+      "id": 132,
+      "price": 1209,
       "delivery": "",
       "deliveryicon": ""
     },
@@ -1865,14 +1990,15 @@
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Grans 4-Seater Dining Set by IKEA",
       "category": "kitchen",
-      "price": "₹429/",
+      "id": 133,
+      "price": 245,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "IKEA Melltorp & Adde Dining Set 4-Seater ",
-      "price": "₹339/",
+      "price": 963,
       "delivery": "",
       "deliveryicon": ""
     },
@@ -1880,15 +2006,17 @@
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Heston 4-Seater Dining Table & Chairs",
       "category": "kitchen",
-      "price": "₹529/",
+      "id": 134,
+      "price": 678,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "IKEA Gladom & Adde Outdoor Table & Chairs ",
-      "price": "₹159/",
+      "price": 160,
       "category": "kitchen",
+      "id": 135,
       "delivery": "",
       "deliveryicon": ""
     },
@@ -1896,154 +2024,154 @@
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Kallax Shelving Unit by IKEA",
       "category": "kitchen",
-      "price": "₹379/",
+      "id": 136,
+      "price": 379,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Gersby Bookshelf by IKEA",
-      "price": "₹129/",
+      "price": 129,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Footsie Shoe Rack Small",
-      "price": "₹119/",
+      "price": 118,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Flip Shoe Rack",
-      "price": "₹239/",
+      "price": 247,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Solemate Shoe Rack",
-      "price": "₹349/",
+      "price": 369,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Bootlegger Shoe Rack",
-      "price": "₹199/",
+      "price": 199,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Magnum Chest of Drawers",
-      "price": "₹339/",
+      "price": 339,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Avian Chest of Drawers",
-      "price": "₹379/",
+      "price": 547,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Kipper Wooden Chest of Drawers",
-      "price": "₹349/",
+      "price": 132,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Rowan Chest of Drawers",
-      "price": "₹239/",
+      "price": 676,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Lack TV Bench",
-      "price": "₹89/",
+      "price": 963,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Marvel TV Unit",
-      "price": "₹159/",
+      "price": 124,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "IKEA Gladom & Adde Outdoor Table & Chairs (White)",
-      "price": "₹159/",
+      "title": 1347,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Baby Cot Crib with Mattress",
-      "price": "₹729/",
+      "price": 454,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Solgul Baby Cot",
-      "price": "₹469/",
+      "price": 1235,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Sundvik Baby Cot by IKEA",
-      "price": "₹589/",
+      "price": 132,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Brimnes Dressing Table by IKEA",
-      "price": "₹379/",
+      "price": 766,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Brook Dressing Table",
-      "price": "₹329/",
+      "price": 742,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Betty Dressing Table",
-      "price": "₹129/",
+      "price": 129,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Mala Easel Board by IKEA",
-      "price": "₹129/",
+      "price": 122,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "PS Cabinet by IKEA",
-      "price": "₹429/",
+      "price": 2454,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Dalfred Bar Stool by IKEA",
-      "price": "₹229/",
+      "price": 451,
       "delivery": "",
       "deliveryicon": ""
     },
@@ -2089,5 +2217,8 @@
       "delivery": "",
       "deliveryicon": ""
     }
-  ]
+  ],
+  "cartserver":[{}]
+
+  
 }

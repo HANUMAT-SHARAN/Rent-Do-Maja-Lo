@@ -11,13 +11,18 @@ import {
   Image,
   Divider,
 } from "@chakra-ui/react";
+import { useNavigate } from "react-router-dom";
+
 
 export default function ProductCard(props) {
-  const { title, price, img, dimg } = props;
+  const { title, price, img, dimg,id } = props;
   const [notbutton, showbutton] = React.useState(false);
+
+  const navto=useNavigate()
   return (
     <>
       <Box
+      onClick={()=>navto(`/product/${id}`)}
       style={{boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",}}
       borderRadius={15}
         onMouseEnter={() => showbutton(true)}

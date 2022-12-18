@@ -12,6 +12,7 @@ import {
   DrawerCloseButton,
   Radio,
   RadioGroup,
+  Heading
 } from "@chakra-ui/react";
 import {
   Box,
@@ -89,6 +90,7 @@ export default function Navbar(props) {
                   alt=""
                 />
               </Box>
+             
               <HStack
                 as={"nav"}
                 spacing={4}
@@ -96,15 +98,16 @@ export default function Navbar(props) {
               >
                 {Links.map((el)=><NavLink>{el}</NavLink>)}
               </HStack>
+               <Button colorScheme="blue" onClick={onOpen}>
+             <Search2Icon />
+            </Button>
             </HStack>
            
             <RadioGroup
               defaultValue={placement}
               onChange={setPlacement}
             ></RadioGroup>
-            <Button colorScheme="blue" onClick={onOpen}>
-              Search For The Products
-            </Button>
+            
             <Drawer placement={placement} onClose={onClose} isOpen={isOpen}>
               <DrawerOverlay />
               <DrawerContent>
@@ -172,12 +175,7 @@ export default function Navbar(props) {
                   cursor={"pointer"}
                   minW={0}
                 >
-                  <Avatar
-                    size={"sm"}
-                    src={
-                      "https://images.unsplash.com/photo-1493666438817-866a91353ca9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=b616b2c5b373a80ffc9636ba24f7a4a9"
-                    }
-                  />
+                  <Text noOfLines={1}>Hanumat</Text>
                 </MenuButton>
                 <MenuList style={{ borderRadius: "20px" }}>
                   <MenuItem>My Account</MenuItem>

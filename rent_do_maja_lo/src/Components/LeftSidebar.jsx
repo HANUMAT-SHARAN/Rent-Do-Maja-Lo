@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 import ProductCard from "../Components/ProductCard";
 import logo from "../Images/logo.jpg";
-import { useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 
 import {
   IconButton,
@@ -110,7 +110,7 @@ const SidebarContent = ({ onClose, ...rest }) => {
   const success = () =>
     toast.success(`Category is Updated`, {
       theme: "colored",
-      position: "bottom-center",
+      position: "top-center",
     });
 
   React.useEffect(() => {
@@ -154,7 +154,7 @@ const SidebarContent = ({ onClose, ...rest }) => {
   };
  
   console.log(load)
-  
+  const navto=useNavigate()
 
   const Checkboxarr = [
     { title: "Bed Room", id: 1 },
@@ -196,7 +196,7 @@ const SidebarContent = ({ onClose, ...rest }) => {
             <Text>Filters</Text>
           </Flex>
           <Button
-            onClick={() => setCat("livingroom")}
+            onClick={() => [setCheck(2),setCat("livingroom")]}
             color="white"
             bg={"red.500"}
             pr={7}
@@ -254,43 +254,7 @@ const SidebarContent = ({ onClose, ...rest }) => {
           </Slider>
         </Container>
 
-        {/* <Slider
-      id='slider'
-      defaultValue={6}
-      min={3}
-      max={12}
-      colorScheme='red'
-     
-      onChange={(v) => setSliderValue(v)}
-      onMouseEnter={() => setShowTooltip(true)}
-      onMouseLeave={() => setShowTooltip(false)}
-    >
-      <SliderMark value={3} mt='1' ml='-2.5' fontSize='sm'>
-        3
-      </SliderMark>
-      <SliderMark value={6} mt='1' ml='-2.5' fontSize='sm'>
-       6
-      </SliderMark>
-      <SliderMark value={9} mt='1' ml='-2.5' fontSize='sm'>
-        9
-      </SliderMark>
-      <SliderMark value={12} mt='1' ml='-2.5' fontSize='sm'>
-        12
-      </SliderMark>
-      <SliderTrack>
-        <SliderFilledTrack />
-      </SliderTrack>
-      <Tooltip
-        hasArrow
-        bg='red.500'
-        color='white'
-        placement='top'
-        isOpen={showTooltip}
-        label={`${sliderValue}`}
-      >
-        <SliderThumb />
-      </Tooltip>
-    </Slider> */}
+  
         <Container borderRadius={"5px"} mt={5} p={5} border="2px solid #E2E8F0">
           <Stack spacing={[1, 5]}>
             <Flex alignItems={"center"} textAlign={"left"}>
@@ -336,7 +300,9 @@ const SidebarContent = ({ onClose, ...rest }) => {
       >
         {data&&data.map((el) => (
           load?<Loader />:<ProductCard
+          // onClick={()=>navto(`/product/${el.title}`)}
             img={el.img}
+            id={el.id}
             price={el.price}
             title={el.title}
             dimg={el.deliveryicon}

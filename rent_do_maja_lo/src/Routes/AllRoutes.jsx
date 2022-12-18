@@ -16,7 +16,7 @@ export default function AllRoutes(props) {
         <Route path="/furniture" element={<FurniturePage />}/>
         <Route path="/electronics" element={<ElectronicsPage />}/>
         <Route path="/fitness" element={<FitnessPage />}/>
-        <Route path="/products/:1" element={<SingleProductPage />}/>
+        <Route path="/product/:id" element={<SingleProductPage />}/>
       
       </Routes>
     </>
