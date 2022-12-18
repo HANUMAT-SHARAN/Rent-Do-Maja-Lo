@@ -44,3 +44,22 @@ background-color: red;
 #rentusdiv:hover{
   background-color:rgb(234, 178, 241);
 }
+.cart .cartdiv{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding:10px;
+  border-radius: 10px;
+  margin: 20px;
+  
+  }
+  .cart .cartdiv:hover{
+    background-color: rgb(224, 158, 208);
+   
+  }
+  .cards .productcard{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding:6px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #e2e8f0;
+    
+  }

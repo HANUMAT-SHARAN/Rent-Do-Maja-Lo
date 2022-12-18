@@ -11,6 +11,13 @@ import { useParams } from "react-router-dom";
 import { Flex, Image, Box, Heading, Text } from "@chakra-ui/react";
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 import "../Pages/carousel.css";
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Stack,
+} from "@chakra-ui/react";
 export default function SingleProductPage(props) {
   const [data, setData] = React.useState({});
 
@@ -128,10 +135,93 @@ export default function SingleProductPage(props) {
                       </Box>
                     </Flex>
                   ))}
-                  <Question />
+                <Question />
               </TabPanel>
               <TabPanel>
-                <p>two!</p>
+                {/* Tab 2 data */}
+                <Heading textAlign={"left"} mb={5}>
+                  Product Details
+                </Heading>
+                <Card
+                  textAlign={"left"}
+                  direction={{ base: "column", sm: "row" }}
+                  overflow="hidden"
+                  variant="outline"
+                  w={[350, 900]}
+                >
+                  <Image
+                    objectFit="cover"
+                    w={[200, 400]}
+                    src={data.img}
+                    alt="Caffe Latte"
+                  />
+
+                  <Stack>
+                    <CardBody
+                      borderRadius={10}
+                      p={5}
+                      boxShadow={
+                        "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;"
+                      }
+                      border={"1px solid "}
+                    >
+                      <Heading
+                        borderRadius={10}
+                        p={5}
+                        boxShadow={
+                          "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;"
+                        }
+                        mb={10}
+                        size="md"
+                      >
+                        Product {"-->"} {data.title}
+                      </Heading>
+
+                      <Text
+                        p={5}
+                        borderRadius={10}
+                        boxShadow={
+                          "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;"
+                        }
+                        color={"gray.500"}
+                        py="2"
+                      >
+                        Put up your feet and let your sofa have the perfect
+                        companion with the Garfield Ottoman. Use it as a
+                        footstool or spare seating to welcome guests, it'll
+                        match any decor or home seamlessly.
+                      </Text>
+                      <Flex mt={10} justifyContent={"space-between"}>
+                        <Button
+                          color={"white"}
+                          boxShadow={
+                            " rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;"
+                          }
+                          borderRadius={10}
+                          border={"1px solid"}
+                          p="6"
+                          variant="solid"
+                          colorScheme="blue"
+                          textAlign={"center"}
+                        >
+                          Monthly Rental ₹ {data.price}
+                        </Button>
+                        <Button
+                          boxShadow={
+                            " rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;"
+                          }
+                          borderRadius={10}
+                          border={"1px solid"}
+                          p="6"
+                          variant="solid"
+                          colorScheme="blue"
+                        >
+                          Deposit Rental ₹ {data.price * 2}
+                        </Button>
+                      </Flex>
+                    </CardBody>
+                  </Stack>
+                </Card>
               </TabPanel>
             </TabPanels>
           </Tabs>

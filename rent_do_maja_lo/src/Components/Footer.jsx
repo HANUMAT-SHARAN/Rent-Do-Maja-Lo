@@ -1,4 +1,5 @@
 import { ReactNode } from 'react';
+import logo from "../Images/logo.jpg";
 import {
   Box,
   Container,
@@ -9,6 +10,7 @@ import {
   VisuallyHidden,
   chakra,
   useColorModeValue,
+  Image,
 } from '@chakra-ui/react';
 import { FaTwitter, FaYoutube, FaInstagram } from 'react-icons/fa';
 
@@ -84,7 +86,8 @@ export default function Footer() {
           </Stack>
 
           <Stack align={'flex-start'}>
-            <ListHeader>Install App</ListHeader>
+            <ListHeader>Rent Do Maja Lo</ListHeader>
+            <Image w={40} borderRadius={"10px"} src={logo} />
             
           </Stack>
         </SimpleGrid>

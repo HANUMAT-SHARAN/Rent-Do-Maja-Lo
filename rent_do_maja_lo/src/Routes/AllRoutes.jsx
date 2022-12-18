@@ -6,6 +6,7 @@ import FurniturePage from "../Pages/FurniturePage";
 import ElectronicsPage from "../Pages/ElectronicsPage"
 import FitnessPage from "../Pages/FitnessPage"
 import SingleProductPage from "../Pages/SingleProductPage";
+import Cart from "../Pages/Cart";
 
 export default function AllRoutes(props) {
   return (
@@ -17,6 +18,7 @@ export default function AllRoutes(props) {
         <Route path="/electronics" element={<ElectronicsPage />}/>
         <Route path="/fitness" element={<FitnessPage />}/>
         <Route path="/product/:id" element={<SingleProductPage />}/>
+        <Route path="/cart" element={<Cart />} />
       
       </Routes>
     </>
