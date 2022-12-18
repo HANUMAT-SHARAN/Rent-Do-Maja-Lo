@@ -3,19 +3,142 @@ import PagesNavbar from "../Components/PagesNavbar";
 import RightSideBar from "../Components/RightSideBar";
 import React from "react";
 import ReactAppStoreBadge from "react-app-store-badge";
-import Footer from "../Components/Footer"
+import Footer from "../Components/Footer";
+import ModalShow from "../Components/Modal";
+import { Button, Container } from "@chakra-ui/react";
+import Question from "../Components/Question";
+import { useParams } from "react-router-dom";
+import { Flex, Image, Box, Heading, Text } from "@chakra-ui/react";
+import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
+import "../Pages/carousel.css";
 export default function SingleProductPage(props) {
+  const [data, setData] = React.useState({});
+
+  const { id } = useParams();
+  console.log(id);
+
+  React.useEffect(() => {
+    showdata(id);
+  }, [id]);
+
+  const showdata = async (id) => {
+    try {
+      let product = await fetch(`http://localhost:3000/furniture/${id}`);
+      let res = await product.json();
+      setData(res);
+    } catch (error) {
+      console.log("error ", error);
+    }
+  };
+
+  const rentarr = [
+    {
+      title: "Relocate for free when you move",
+      img: "https://www.rentomojo.com/public/images/product/app-benefits/icons/common/relocation.svg",
+      des: "Changing your house or even your city? We'll relocate your rentals for free within the city or to any of our eight operational cities!",
+    },
+    {
+      title: "Easy returns, no questions asked",
+      img: "https://www.rentomojo.com/public/images/product/app-benefits/icons/furniture/2.png",
+      des: "If you don't like the product you receive on delivery, you can return it right away. We'll initiate the refund of your deposit within 24 hours.",
+    },
+    {
+      title: "Furniture as good as new",
+      img: "https://www.rentomojo.com/public/images/product/app-benefits/icons/furniture/2.png",
+      des: "Quality matters to you, and us! That's why our team does a thorough quality-check for every product, so it reaches you in a condition as good as new.",
+    },
+    {
+      title: "Free maintenance and annual cleaning",
+      img: "https://www.rentomojo.com/public/images/product/app-benefits/icons/common/1.png",
+      des: "We offer maintenance for your product after 12 months and annual cleaning—free of cost, so you can sit back and relax.",
+    },
+    {
+      title: "Keep upgrading to newer designs",
+      img: "https://www.rentomojo.com/public/images/product/app-benefits/icons/furniture/5.png",
+      des: "Bored of the same product and style? Just upgrade after 12 months to try another design and enjoy the change!",
+    },
+  ];
+
   return (
     <>
       <Navbar />
       <PagesNavbar />
-      <RightSideBar />
-      <ReactAppStoreBadge
-        textHeading="Available on the"
-        textStoreName="App Store"
-        icon={<i className="icon-my-icon" />}
-        url="www.myappstoreplaceholder.com"
-      />
+      <Flex>
+        <Box>
+          <Image
+            h={[400, 600]}
+            borderRadius={20}
+            box-shadow="rgba(0, 0, 0, 0.35) 0px 5px 15px"
+            w={[350, 950]}
+            src={data.img}
+          />
+          <Tabs isFitted variant="unstyled">
+            <TabList mb="1em">
+              <Tab _selected={{ color: "white", bg: "blue.500" }}>
+                <Text fontSize="20px">Why Rent From Us?</Text>
+              </Tab>
+              <Tab _selected={{ color: "white", bg: "green.400" }}>
+                <Text fontSize="20px">Product Details</Text>
+              </Tab>
+            </TabList>
+            <TabPanels>
+              <TabPanel>
+                <Flex
+                  justifyContent={"space-between"}
+                  textAlign={"left"}
+                  w={[350, 950]}
+                >
+                  <Box ml={2}>
+                    <Heading mb={6} fontSize={"25px"}>
+                      Relocate for free when you move
+                    </Heading>{" "}
+                    <Text color="gray.500">
+                      Changing your house or even your city? We'll relocate{" "}
+                      <br /> your rentals for free within the city or to any of
+                      our 8 <br />
+                      operational cities!
+                    </Text>
+                  </Box>
+                  <Image
+                    w={400}
+                    src="https://www.rentomojo.com/public/images/product/app-benefits/product.png"
+                  />
+                </Flex>
+
+                {rentarr &&
+                  rentarr.map((el) => (
+                    <Flex
+                      boxShadow={
+                        "rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;"
+                      }
+                      id="rentusdiv"
+                      align={"center"}
+                      borderRadius={20}
+                      mb={5}
+                      justifyContent={"space-between"}
+                      textAlign={"left"}
+                      w={[350, 950]}
+                    >
+                      <Image w={100} src={el.img} />{" "}
+                      <Box ml={10}>
+                        <Text mb="2" fontSize={20}>
+                          {el.title}
+                        </Text>
+                        <Text color="gray.500">{el.des}</Text>
+                      </Box>
+                    </Flex>
+                  ))}
+                  <Question />
+              </TabPanel>
+              <TabPanel>
+                <p>two!</p>
+              </TabPanel>
+            </TabPanels>
+          </Tabs>
+        </Box>
+
+        <RightSideBar />
+      </Flex>
       <Footer />
     </>
   );
