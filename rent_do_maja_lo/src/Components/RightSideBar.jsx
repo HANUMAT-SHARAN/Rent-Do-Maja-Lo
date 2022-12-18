@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 import { useParams } from "react-router-dom";
 import { CheckCircleIcon, InfoIcon } from "@chakra-ui/icons";
-import "../Pages/carousel.css" 
+import "../Pages/carousel.css";
 import {
   IconButton,
   Box,
@@ -131,6 +131,24 @@ const SidebarContent = ({ ...rest }) => {
       console.log("error ", error);
     }
   };
+ 
+
+  const addtocart = async () => {
+    try {
+    let datacart=await fetch(`http://localhost:3000/cartserver`,{
+
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body:JSON.stringify(data)
+    })
+   
+
+    } catch (error) {
+      console.log("error ", error);
+    }
+    const notifysucess=toast.success("Item Add to cart Succesfully",{theme:"colored",position:"top-center"})
+    notifysucess()
+  };
   const estimatearr = [
     {
       img: "https://www.rentomojo.com/public/images/exchange/evaluate.svg",
@@ -221,7 +239,7 @@ const SidebarContent = ({ ...rest }) => {
           </Flex>
 
           <Container
-          w={"full"}
+            w={"full"}
             borderRadius={"5px"}
             mt={5}
             p={5}
@@ -348,7 +366,13 @@ const SidebarContent = ({ ...rest }) => {
             </Flex>
             <InfoIcon />
           </Flex>
-          <Button color="white" bg={"#dc4024"} w={"full"}>
+          <Button
+            onClick={addtocart}
+            p={7}
+            color="white"
+            bg={"#dc4024"}
+            w={"full"}
+          >
             <Image
               w={6}
               mr={2}
@@ -471,15 +495,15 @@ const SidebarContent = ({ ...rest }) => {
             <ModalContent>
               <ModalCloseButton />
               <ModalBody>
-                <SimpleGrid  spacing={"30px"} columns={[1, 2, 3]}>
+                <SimpleGrid spacing={"30px"} columns={[1, 2, 3]}>
                   {tenuresarr &&
                     tenuresarr.map((el) => (
-                      <Container borderRadius={"20px"}  className="tenuresmodal"  >
+                      <Container borderRadius={"20px"} className="tenuresmodal">
                         <Box mb="5">
                           <Heading fontSize={26}>{el.title}</Heading>
                         </Box>
                         <Flex
-                        borderRadius={"20px"}
+                          borderRadius={"20px"}
                           w={320}
                           border={"1px solid #ebebeb"}
                           p={7}
@@ -490,7 +514,7 @@ const SidebarContent = ({ ...rest }) => {
                           <Text>{el.t1}</Text>{" "}
                         </Flex>
                         <Flex
-                         borderRadius={"20px"}
+                          borderRadius={"20px"}
                           w={320}
                           border={"1px solid #ebebeb"}
                           p={7}
@@ -511,7 +535,8 @@ const SidebarContent = ({ ...rest }) => {
                           <Image w={45} src={el.i3} alt={""} />{" "}
                           <Text>{el.t3}</Text>{" "}
                         </Flex>
-                        <Flex borderRadius={"20px"}
+                        <Flex
+                          borderRadius={"20px"}
                           w={320}
                           border={"1px solid #ebebeb"}
                           p={7}
@@ -521,7 +546,8 @@ const SidebarContent = ({ ...rest }) => {
                           <Image w={45} src={el.i4} alt={""} />{" "}
                           <Text>{el.t4}</Text>{" "}
                         </Flex>
-                        <Flex borderRadius={"20px"}
+                        <Flex
+                          borderRadius={"20px"}
                           w={320}
                           border={"1px solid #ebebeb"}
                           p={7}

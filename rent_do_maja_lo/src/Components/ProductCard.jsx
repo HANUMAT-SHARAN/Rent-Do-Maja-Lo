@@ -51,7 +51,7 @@ export default function ProductCard(props) {
         <Divider color="black" />
 
         <Flex p={2} justifyContent={"space-between"}>
-          <Text>{price}month</Text>
+          <Text>₹ {price}/month</Text>
           <Image src={dimg}></Image>
         </Flex>
         <Divider />

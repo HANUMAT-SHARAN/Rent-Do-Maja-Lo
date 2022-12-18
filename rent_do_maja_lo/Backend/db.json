@@ -1070,7 +1070,6 @@
       "price": 239,
       "category": "livingroom",
       "id": 80,
-
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
@@ -1783,7 +1782,6 @@
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Oliver 2-Seater Fabric Sofa (White)",
       "price": 388,
-
       "category": "wfm",
       "id": 61,
       "delivery": "",
@@ -2218,7 +2216,33 @@
       "deliveryicon": ""
     }
   ],
-  "cartserver":[{}]
-
-  
+  "cartserver": [
+    {
+      "img": "https://p.rmjo.in/productSquare/u99cxuq8-500x500.jpg",
+      "title": "Barney Leather Recliner ",
+      "price": 899,
+      "category": "livingroom",
+      "id": 72,
+      "delivery": "4 days",
+      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
+    },
+    {
+      "img": "https://p.rmjo.in/productSquare/k8bt1nao-500x500.jpg",
+      "title": "Felix 1-Seater Fabric Sofa ",
+      "price": 429,
+      "category": "livingroom",
+      "id": 74,
+      "delivery": "4 days",
+      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
+    },
+    {
+      "img": "https://p.rmjo.in/productSquare/8eeku6mr-500x500.jpg",
+      "title": "Aqua 3-Seater Fabric Sofa ",
+      "price": 1040,
+      "category": "livingroom",
+      "id": 76,
+      "delivery": "4 days",
+      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
+    }
+  ]
 }

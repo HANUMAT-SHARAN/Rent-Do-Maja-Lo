@@ -12,7 +12,8 @@ import {
   DrawerCloseButton,
   Radio,
   RadioGroup,
-  Heading
+  Heading,
+  Image
 } from "@chakra-ui/react";
 import {
   Box,
@@ -39,6 +40,7 @@ import {
 } from "@chakra-ui/react";
 
 import { HamburgerIcon, CloseIcon, AddIcon } from "@chakra-ui/icons";
+import { useNavigate } from "react-router-dom";
 
 const NavLink = ({ children }) => (
   <Link
@@ -61,6 +63,7 @@ export default function Navbar(props) {
   const { isOpen, onOpen, onClose, onToggle } = useDisclosure();
   const [show, setShow] = React.useState(false);
   const [placement, setPlacement] = React.useState("top");
+  const sendto=useNavigate()
   const handleClick = () => setShow(!show);
 
   return (
@@ -158,6 +161,7 @@ export default function Navbar(props) {
               >
                 LOGIN/SIGNUP
               </Button>
+              <Button onClick={()=>sendto("/cart")}><Image w={6} src={"https://cdn2.iconfinder.com/data/icons/economic-part-3/100/shopping-basket-64.png"} /></Button>
               <Button
                 aria-label="Toggle Color Mode"
                 onClick={toggleColorMode}
