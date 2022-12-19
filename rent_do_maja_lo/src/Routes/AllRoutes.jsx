@@ -7,6 +7,9 @@ import ElectronicsPage from "../Pages/ElectronicsPage"
 import FitnessPage from "../Pages/FitnessPage"
 import SingleProductPage from "../Pages/SingleProductPage";
 import Cart from "../Pages/Cart";
+import PrivateRoute from "./PrivateRoute";
+import SingleElectronicsPage from "../Pages/SingleElectronicsPage";
+import SingleFitnes from "../Pages/SingleFitnes";
 
 export default function AllRoutes(props) {
   return (
@@ -18,7 +21,10 @@ export default function AllRoutes(props) {
         <Route path="/electronics" element={<ElectronicsPage />}/>
         <Route path="/fitness" element={<FitnessPage />}/>
         <Route path="/product/:id" element={<SingleProductPage />}/>
-        <Route path="/cart" element={<Cart />} />
+        <Route path="/electronics/:id" element={<SingleElectronicsPage />}/>
+        <Route path="/fitness/:id" element={<SingleFitnes />}/>
+        <Route path="/cart" element={<PrivateRoute><Cart /></PrivateRoute>} />
+
       
       </Routes>
     </>

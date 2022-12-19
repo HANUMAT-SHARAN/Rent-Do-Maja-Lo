@@ -14,6 +14,7 @@ export default function Cart(props) {
   React.useEffect(() => {
     getcart();
   }, []);
+  
   let getcart = async () => {
     try {
       let cartdata = await fetch(`http://localhost:3000/cartserver`);
@@ -31,6 +32,7 @@ export default function Cart(props) {
   }
   const sum = arr.reduce((ac, el) => el + ac, 0);
 
+  //Remove Api
   const removedata = async (id) => {
     try {
       let cartdata = await fetch(`http://localhost:3000/cartserver/${id}`, {
