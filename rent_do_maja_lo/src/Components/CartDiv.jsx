@@ -31,16 +31,34 @@ function CartDiv({ title, img, price, removedata, id }) {
   };
 
   return (
-    <Box className="cards" p={10}>
-      <Flex className="productcard"align={"center"} justifyContent={"space-between"}>
+    <Box className="cards" p={10}>              
+      <Flex
+        className="productcard"
+        align={"center"}
+        justifyContent={"space-between"}
+      >
         <Text>{title}</Text>
-        <Button onClick={() => removedata(id)}><Image w={7} src={"https://cdn4.iconfinder.com/data/icons/computer-and-web-2/500/Delete-64.png"} /> </Button>
+        <Button onClick={() => removedata(id)}>
+          <Image
+            w={7}
+            src={
+              "https://cdn4.iconfinder.com/data/icons/computer-and-web-2/500/Delete-64.png"
+            }
+          />{" "}
+        </Button>
       </Flex>
-      <Flex className="productcard" align={"center"} justifyContent={"space-between"}>
+      <Flex
+        className="productcard"
+        align={"center"}
+        justifyContent={"space-between"}
+      >
         <Image borderRadius={10} w={20} src={img} />{" "}
         <Flex justifyContent={"space-between"}>
           <Text fontSize={14}> Installation ₹ {price / 2}</Text>
-          <Text fontSize={14}>  Rent ₹ {mainid == id ? price * count : price}/month</Text>
+          <Text fontSize={14}>
+            {" "}
+            Rent ₹ {mainid == id ? price * count : price}/month
+          </Text>
           <Text fontSize={14}>
             {" "}
             Deposit ₹{" "}
@@ -48,9 +66,14 @@ function CartDiv({ title, img, price, removedata, id }) {
           </Text>
         </Flex>
       </Flex>
-      <Flex className="productcard" align={"center"} justifyContent={"space-between"}>
+      <Flex
+        className="productcard"
+        align={"center"}
+        justifyContent={"space-between"}
+      >
         <Flex>
-          <Button bg="blue.100"
+          <Button
+            bg="blue.100"
             disabled={count == 5 ? true : false}
             onClick={() => [sendnew(id), setCount(count + 1), , start()]}
           >
@@ -59,7 +82,8 @@ function CartDiv({ title, img, price, removedata, id }) {
           <Button disabled isLoading={load}>
             {count}
           </Button>
-          <Button bg="blue.100"
+          <Button
+            bg="blue.100"
             disabled={count == 1 ? true : false}
             onClick={() => [sendnew(id), setCount(count - 1), start()]}
           >
@@ -75,7 +99,13 @@ function CartDiv({ title, img, price, removedata, id }) {
           <option value={6}>6 Months</option>
         </Select>
       </Flex>
-      <Flex bg={"blue.300"} className="productcard" align={"center"} w={"auto"} justifyContent={"space-around"}>
+      <Flex
+        bg={"blue.300"}
+        className="productcard"
+        align={"center"}
+        w={"auto"}
+        justifyContent={"space-around"}
+      >
         <Image
           alt="fdf"
           src={

@@ -124,7 +124,7 @@ const SidebarContent = ({ ...rest },url) => {
 
   const showdata = async (id) => {
     try {
-      let product = await fetch(`http://localhost:3000/furniture/${id}`);
+      let product = await fetch(`http://localhost:3000/electronics/${id}`);
       let res = await product.json();
       setData(res);
     } catch (error) {

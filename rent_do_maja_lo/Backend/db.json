@@ -3,602 +3,447 @@
     {
       "img": "https://p.rmjo.in/productSquare/yhx594uv-500x500.jpg",
       "title": "Samsung Galaxy S10+ ",
-      "price": "₹1659/",
+      "price": 1659,
+      "category": "smartphone",
+      "id": 1,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/vmbb6qhr-500x500.jpg",
       "title": "Apple iPhone XR 64GB ",
-      "price": "₹1839/",
+      "price": 1839,
+      "category": "smartphone",
+      "id": 2,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/fgcl0o0i-500x500.jpg",
       "title": "Apple iPhone 6S (Space Grey)",
-      "price": "₹799/",
+      "price": 799,
+      "category": "smartphone",
+      "id": 3,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/lbf7407m-500x500.jpg",
       "title": "OnePlus 7 (Mirror Gray)",
-      "price": "₹1109/",
+      "price": 1109,
+      "category": "smartphone",
+      "id": 4,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/mxzy0xf9-500x500.jpg",
       "title": "OnePlus 7 Pro (Mirror Gray)",
-      "price": "₹1669/",
+      "price": 1669,
+      "category": "smartphone",
+      "id": 5,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://p.rmjo.in/productSquare/fhonufah-500x500.jpg",
       "title": "Samsung Galaxy Note 10 (Aura Black)",
-      "price": "₹2229/",
+      "price": 2229,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Vivo V11 Pro ( Gold )",
-      "price": "₹839/",
+      "price": 839,
+      "category": "smartphone",
+      "id": 6,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "OnePlus 7T ( Frosted Silver )",
-      "price": "₹1309/",
+      "price": 1309,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Apple iPhone XS (Gold)",
-      "price": "₹3279/",
+      "price": 3279,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Galaxy S10e ",
-      "price": "₹1789/",
+      "price": 1789,
+      "category": "smartphone",
+      "id": 7,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "OnePlus 7T Pro (Haze Blue)",
-      "price": "₹1849/",
+      "price": 1849,
+      "category": "smartphone",
+      "id": 8,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Apple iPhone XR 128GB (White)",
-      "price": "₹2199/",
+      "price": 2199,
+      "category": "smartphone",
+      "id": 9,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "OnePlus 6T (Mirror Black)",
-      "price": "₹1199/",
+      "price": 1199,
+      "category": "smartphone",
+      "id": 10,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Google Pixel 2 ",
-      "price": "₹1699/",
+      "price": 1699,
+      "category": "smartphone",
+      "id": 11,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Galaxy Note 8 ",
-      "price": "₹1749/",
+      "price": 1749,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Apple iPhone XS Max (Silver)",
-      "price": "₹3729/",
+      "price": 3729,
+      "category": "smartphone",
+      "id": 12,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Apple iPhone X (Silver)",
-      "price": "₹3039/",
+      "price": 3039,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Samsung Galaxy A7 (Gold)",
-      "price": "₹689/",
+      "price": 689,
+      "category": "smartphone",
+      "id": 13,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Apple iPhone 8 (Gold)",
-      "price": "₹2169/",
+      "price": 2169,
+      "category": "smartphone",
+      "id": 14,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Apple iPhone 11 ",
-      "price": "₹2159/",
+      "price": 2159,
+      "category": "smartphone",
+      "id": 15,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
+      "img": "https://p.rmjo.in/productSquare/jir7agyl-500x500.jpg",
       "title": "Windows i5/16GB - Powered by MF",
-      "price": "₹4821/",
+      "price": 4821,
+      "category": "laptop",
+      "id": 16,
       "delivery": "5 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
+      "img": "https://p.rmjo.in/productSquare/wnqhs5oi-500x500.jpg",
       "title": "MacBook Pro i5 - Powered by ABCOM",
-      "price": "₹4001/",
+      "price": 4001,
+      "category": "laptop",
+      "id": 17,
       "delivery": "3 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
+      "img": "https://p.rmjo.in/productSquare/d121e7k9-500x500.jpg",
       "title": "Windows i3/4GB - Powered by ABcom",
-      "price": "₹2797/",
+      "price": 2797,
+      "category": "laptop",
+      "id": 18,
       "delivery": "3 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
+      "img": "https://p.rmjo.in/productSquare/ujzfusgx-500x500.jpg",
       "title": "MacBook Pro i7 - Powered by MF",
-      "price": "₹12373/",
+      "price": 12373,
+      "category": "laptop",
+      "id": 19,
       "delivery": "5 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
+      "img": "https://p.rmjo.in/productSquare/7gqbt0tx-500x500.jpg",
       "title": "MacBook Air - Powered by MF",
-      "price": "₹6606/",
+      "price": 6606,
+      "category": "laptop",
+      "id": 20,
       "delivery": "5 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
+      "img": "https://p.rmjo.in/productSquare/hyob6tn7-500x500.jpg",
       "title": "MacBook Pro i5 - Powered by MF",
-      "price": "₹8482/",
+      "price": 8482,
+      "category": "laptop",
+      "id": 21,
       "delivery": "5 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
+      "img": "https://p.rmjo.in/productSquare/siecu434-500x500.jpg",
       "title": "Windows i5/4GB - Powered by MF",
       "price": "₹3750/",
+      "category": "laptop",
+      "id": 22,
       "delivery": "5 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
+      "img": "https://p.rmjo.in/productSquare/nheby11s-500x500.jpg",
       "title": "Windows AMD 4GB - Powered by ABCOM",
-      "price": "₹2302/",
+      "price": 2302,
+      "category": "laptop",
+      "id": 23,
       "delivery": "3 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Windows i5/8GB - Powered by MF",
-      "price": "₹4375/",
-      "delivery": "5 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Windows i5/8GB - Powered by ABCOM",
-      "price": "₹3685/",
-      "delivery": "3 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Amazon Echo",
-      "price": "₹229/",
-      "delivery": "4 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Google Home",
-      "price": "₹259/",
-      "delivery": "4 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Samsung Galaxy J8 ",
-      "price": "₹489/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Samsung Galaxy S10 (Prism Black)",
-      "price": "₹1939/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Redmi K20 (Carbon Black)",
-      "price": "₹739/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Apple iPhone 7 Plus (Gold)",
-      "price": "₹1309/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Poco F1",
-      "price": "₹669/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Honor 8X ",
-      "price": "₹609/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Galaxy A50s (Prism Crush White)",
-      "price": "₹779/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Samsung Galaxy A50 (White, 4GB RAM)",
-      "price": "₹629/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Apple iPhone 11 Pro (Space Grey)",
-      "price": "₹3349/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Oppo F11 Pro (Thunder Black)",
-      "price": "₹759/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Apple iPhone 11 Pro (Midnight Green)",
-      "price": "₹3349/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Galaxy S10+ (White)",
-      "price": "₹2399/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Vivo V15 Pro (Ruby Red)",
-      "price": "₹879/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Galaxy A50 ",
-      "price": "₹619/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Samsung Galaxy A70 ",
-      "price": "₹979/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Galaxy Note 9 ",
-      "price": "₹2319/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Redmi K20 Pro ",
-      "price": "₹1049/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Nokia 9 Pureview ",
-      "price": "₹1549/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Oppo F11 (Fluorite Purple)",
-      "price": "₹589/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Apple iPhone XS (Silver)",
-      "price": "₹3389/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Samsung Galaxy S9 ",
-      "price": "₹1589/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Vivo Y17 ( Mineral Blue )",
-      "price": "₹539/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Galaxy A9 (Lemonade Blue)",
-      "price": "₹1139/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Samsung Galaxy A50 (White, 6GB RAM)",
-      "price": "₹739/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Oppo Reno 2 Z (Luminous Black)",
-      "price": "₹969/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Redmi K20 Pro (Carbon Black)",
-      "price": "₹929/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Vivo V11 Pro (Supernova Red)",
-      "price": "₹849/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Galaxy Note 10 Plus (Aura Glow)",
-      "price": "₹2729/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Apple iPhone 8 (Silver)",
-      "price": "₹2049/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Redmi Note 6 Pro (Red)",
-      "price": "₹569/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Oppo A7 ( Glaze Blue )",
-      "price": "₹579/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Redmi Note 6 Pro ",
-      "price": "₹399/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Oppo A5 ",
-      "price": "₹479/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Samsung Galaxy A30 ",
-      "price": "₹529/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Samsung Galaxy J8 ",
-      "price": "₹539/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Apple iPhone XR (Red)",
-      "price": "₹2189/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Oppo A7 ( Glaring Gold )",
-      "price": "₹579/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Lenovo IdeaPad S340, Intel Core i3 processor, 10th Gen - (8GB / 1TB HDD / Win 10 Home, 14 inch, Platinum Grey)",
-      "price": "₹1229/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Dell Vostro 3490, Intel Core i3 processor , 10th Gen - (8 GB / 1 TB HDD / Win 10 Home , 14 inch, Black)",
-      "price": "₹1229/",
-      "delivery": "",
-      "deliveryicon": ""
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
+      "img": "https://p.rmjo.in/productSquare/298cbqj0-500x500.jpg",
       "title": "Lenovo IdeaPad 3, Intel Core i5 processor, 10th Gen - (8GB / 1TB HDD / Win 10 Home, 15.6 inch, Platinum Grey)",
       "price": "₹1489/",
+      "category": "laptop",
+      "id": 24,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "HP 15 Notebook , Intel Core i3 processor , 7th Gen  - (4GB / 1TB HDD / Win 10 Home OS / 15.6 inch/ Silver )",
-      "price": "₹1069/",
+      "price": 1069,
+      "category": "laptop",
+      "id": 25,
       "delivery": "",
       "deliveryicon": ""
     },
     {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
       "title": "Lenovo Ideapad 330 , Intel Core i3 processor , 7th Gen  - (4GB / 1TB HDD / Win 10 Home OS / 15.6 inch / Platinum Grey)",
-      "price": "₹1169/",
+      "price": 1169,
+      "category": "laptop",
+      "id": 26,
       "delivery": "",
       "deliveryicon": ""
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "MacBook Air Intel Core i5 processor , 5th Gen - ( 8 GB / 128 GB SSD / Mac High Sierra OS , 13.3 inch, Silver )",
-      "price": "₹2169/",
+      "img": "https://p.rmjo.in/productSquare/4m2jowry-500x500.jpg",
+      "title": "Google Home",
+      "price": 229,
+      "category": "smartdevices",
+      "id": 27,
       "delivery": "",
       "deliveryicon": ""
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Dell XPS 13 , Intel Core i5 processor , 8th Gen - ( 8 GB / 256 GB SSD / Win 10 Pro OS , 13.3 inch,Silver )",
-      "price": "₹4139/",
+      "img": "https://p.rmjo.in/productSquare/wph9nyr6-500x500.jpg",
+      "title": "Amazon Echo",
+      "price": 116,
+      "category": "smartdevices",
+      "id": 28,
       "delivery": "",
       "deliveryicon": ""
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "HP EliteBook 820 G3, Intel Core i5 processor, 6th Gen - (8 GB / 500 GB HDD / Win 10 Home, 12.5 inch, Silver)",
-      "price": "₹1029/",
+      "img": "https://p.rmjo.in/productSquare/rsuzkom0-500x500.jpg",
+      "title": "Amazon Fire Tv Stick",
+      "price": 119,
+      "category": "smartdevices",
+      "id": 29,
       "delivery": "",
       "deliveryicon": ""
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Dell Latitude , Intel Core i5 processor , 8th Gen - ( 8 GB / 500 GB HDD / Win 10 Pro OS , 14 inch, Black)",
-      "price": "₹2069/",
+      "img": "https://p.rmjo.in/productSquare/xpe1x980-500x500.jpg",
+      "title": "boat avante",
+      "price": 150,
+      "category": "smartdevices",
+      "id": 30,
       "delivery": "",
       "deliveryicon": ""
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "MacBook Pro Intel Core i5 processor , 7th Gen - ( 8 GB / 128 GB SSD / Mac High Sierra OS,13.3 inch,Space Grey )",
-      "price": "₹3429/",
+      "img": "https://p.rmjo.in/productSquare/ojeg5074-500x500.jpg",
+      "title": "Apple IPad",
+      "price": 2499,
+      "category": "tablets",
+      "id": 31,
       "delivery": "",
       "deliveryicon": ""
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "New Apple MacBook Air 13.3 inch (Intel Core i3 10th Gen/8GB/256GB/macOS High Sierra Home/Space Grey)",
-      "price": "₹2809/",
+      "img": "https://p.rmjo.in/productSquare/dvlj6ic5-500x500.jpg",
+      "title": "Samsung Tab",
+      "price": 1590,
+      "category": "tablets",
+      "id": 32,
       "delivery": "",
       "deliveryicon": ""
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Avita Liber, Intel Core i5, 8th Gen - (8GB / 256GB SSD / Win 10 Home OS / 14-inch / Space Grey)",
-      "price": "₹1309/",
+      "img": "https://p.rmjo.in/productSquare/prlx76wq-500x500.jpg",
+      "title": "Apple IPad Mini",
+      "price": 1129,
+      "category": "tablets",
+      "id": 33,
       "delivery": "",
       "deliveryicon": ""
     },
     {
+      "img": "https://p.rmjo.in/productSquare/am525ijh-500x500.jpg",
+      "title": "Cross Trainer With Seat",
+      "price": 1189,
+      "category": "crosstrainer",
+      "id": 42,
+      "delivery": "4 days",
+      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
+    },
+    {
+      "img": "https://p.rmjo.in/productSquare/fheitssa-500x500.jpg",
+      "title": "Motorized Treadmill CTM 14A",
+      "price": 2099,
+      "category": "treadmill",
+      "id": 34,
+      "delivery": "4 days",
+      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
+    },
+    {
       "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Amazon Fire TV Stick",
-      "price": "₹129/",
+      "title": "Cross Trainer C-500",
+      "price": 1109,
+      "delivery": "4 days",
+      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
+    },
+    {
+      "img": "https://p.rmjo.in/productSquare/nkfec4p7-500x500.jpg",
+      "title": "Motorized Treadmill AF 517",
+      "price": 2359,
+      "category": "treadmill",
+      "id": 35,
+      "delivery": "4 days",
+      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
+    },
+    {
+      "img": "https://p.rmjo.in/productSquare/b8g0ufr1-500x500.jpg",
+      "title": "Motorized Treadmill AF-515",
+      "price": 2359,
+      "category": "treadmill",
+      "id": 36,
+      "delivery": "4 days",
+      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
+    },
+    {
+      "img": "https://p.rmjo.in/productSquare/68cb0ce2-500x500.jpg",
+      "title": "Leg Massager IF-868",
+      "price": 1339,
+      "category": "massager",
+      "id": 40,
+      "delivery": "4 days",
+      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
+    },
+    {
+      "img": "https://p.rmjo.in/productSquare/niqfc8xs-500x500.jpg",
+      "title": "Crazy Fit Massager VP-500",
+      "price": 929,
+      "category": "massager",
+      "id": 43,
+      "delivery": "4 days",
+      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
+    },
+    {
+      "img": "https://p.rmjo.in/productSquare/5319tgr7-500x500.jpg",
+      "title": "Exercise Cycle AB-100",
+      "price": 409,
+      "category": "cycle",
+      "id": 44,
       "delivery": "",
       "deliveryicon": ""
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "boAt AAVANTE",
-      "price": "₹189/",
+      "img": "https://p.rmjo.in/productSquare/k515c57w-500x500.jpg",
+      "title": "Smart Magnetic Exercise Bike",
+      "price": 619,
+      "category": "cycle",
+      "id": 45,
       "delivery": "",
       "deliveryicon": ""
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Samsung Galaxy Tab S4 ",
-      "price": "₹1789/",
+      "img": "https://p.rmjo.in/productSquare/jsxcydcf-500x500.jpg",
+      "title": "Auto Inclination Treadmill T-501",
+      "price": 2119,
+      "category": "treadmill",
+      "id": 37,
       "delivery": "",
       "deliveryicon": ""
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Apple iPad Pro 11 (Space Grey)",
-      "price": "₹2769/",
+      "img": "https://p.rmjo.in/productSquare/bk7tbcu2-500x500.jpg",
+      "title": "Foldable Treadmill TD-M4",
+      "price": 2159,
+      "category": "treadmill",
+      "id": 38,
       "delivery": "",
       "deliveryicon": ""
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Apple iPad 10.2 inch ",
-      "price": "₹1369/",
+      "img": "https://p.rmjo.in/productSquare/ffg0b4na-500x500.jpg",
+      "title": "Cross Trainer EH-400",
+      "price": 1499,
+      "category": "crosstrainer",
+      "id": 41,
+      "delivery": "",
+      "deliveryicon": ""
+    },
+    {
+      "img": "https://p.rmjo.in/productSquare/8xvc6k5r-500x500.jpg",
+      "title": "Auto Inclination Treadmill TM-33",
+      "price": 2349,
+      "category": "treadmill",
+      "id": 39,
       "delivery": "",
       "deliveryicon": ""
     }
@@ -2227,22 +2072,81 @@
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
-      "img": "https://p.rmjo.in/productSquare/k8bt1nao-500x500.jpg",
-      "title": "Felix 1-Seater Fabric Sofa ",
-      "price": 429,
+      "img": "https://p.rmjo.in/productSquare/9o9eoir3-500x500.jpg",
+      "title": "Rex 3-Seater Leather Sofa ",
+      "price": 739,
       "category": "livingroom",
-      "id": 74,
+      "id": 71,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
-      "img": "https://p.rmjo.in/productSquare/8eeku6mr-500x500.jpg",
-      "title": "Aqua 3-Seater Fabric Sofa ",
-      "price": 1040,
-      "category": "livingroom",
-      "id": 76,
+      "img": "https://p.rmjo.in/productSquare/jir7agyl-500x500.jpg",
+      "title": "Windows i5/16GB - Powered by MF",
+      "price": 4821,
+      "category": "laptop",
+      "id": 16,
+      "delivery": "5 days",
+      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
+    },
+    {
+      "img": "https://p.rmjo.in/productSquare/am525ijh-500x500.jpg",
+      "title": "Cross Trainer With Seat",
+      "price": 1189,
+      "category": "crosstrainer",
+      "id": 42,
       "delivery": "4 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
+    }
+  ],
+  "userserver": [
+    {
+      "name": "Hanumat Sharan",
+      "otp": 53575,
+      "email": "deotadayal27@gmail.com",
+      "password": "Hanumat@123",
+      "phonenumber": "8264121428",
+      "id": 1
+    },
+    {
+      "name": "Amit ",
+      "otp": 62916,
+      "email": "michael.lawson@reqres.in",
+      "password": "Amit123456$",
+      "phonenumber": "8264121428",
+      "id": 2
+    },
+    {
+      "name": "Manmeet",
+      "otp": 76960,
+      "email": "michael.lawson@reqres.in",
+      "password": "Manmeet@123$",
+      "phonenumber": "8264121428",
+      "id": 3
+    },
+    {
+      "name": "hanumat",
+      "otp": 95222,
+      "email": "michael.lawson@reqres.in",
+      "password": "Hanumat@1234$",
+      "phonenumber": "8264121428",
+      "id": 4
+    },
+    {
+      "name": "hanumat",
+      "otp": 97091,
+      "email": "michael.lawson@reqres.in",
+      "password": "Hanumat%4535#24$",
+      "phonenumber": "8264121428",
+      "id": 5
+    },
+    {
+      "name": "hanumat",
+      "otp": 93914,
+      "email": "michael.lawson@reqres.in",
+      "password": "rtgdfgdfgdfgd$klhh",
+      "phonenumber": "8264121428",
+      "id": 6
     }
   ]
 }
