@@ -53,124 +53,6 @@
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     },
     {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Vivo V11 Pro ( Gold )",
-      "price": 839,
-      "category": "smartphone",
-      "id": 6,
-      "delivery": "4 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "OnePlus 7T ( Frosted Silver )",
-      "price": 1309,
-      "delivery": "4 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Apple iPhone XS (Gold)",
-      "price": 3279,
-      "delivery": "4 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Galaxy S10e ",
-      "price": 1789,
-      "category": "smartphone",
-      "id": 7,
-      "delivery": "4 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "OnePlus 7T Pro (Haze Blue)",
-      "price": 1849,
-      "category": "smartphone",
-      "id": 8,
-      "delivery": "4 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Apple iPhone XR 128GB (White)",
-      "price": 2199,
-      "category": "smartphone",
-      "id": 9,
-      "delivery": "4 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "OnePlus 6T (Mirror Black)",
-      "price": 1199,
-      "category": "smartphone",
-      "id": 10,
-      "delivery": "4 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Google Pixel 2 ",
-      "price": 1699,
-      "category": "smartphone",
-      "id": 11,
-      "delivery": "4 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Galaxy Note 8 ",
-      "price": 1749,
-      "delivery": "4 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Apple iPhone XS Max (Silver)",
-      "price": 3729,
-      "category": "smartphone",
-      "id": 12,
-      "delivery": "4 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Apple iPhone X (Silver)",
-      "price": 3039,
-      "delivery": "4 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Samsung Galaxy A7 (Gold)",
-      "price": 689,
-      "category": "smartphone",
-      "id": 13,
-      "delivery": "4 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Apple iPhone 8 (Gold)",
-      "price": 2169,
-      "category": "smartphone",
-      "id": 14,
-      "delivery": "4 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
-      "img": "https://www.rentomojo.com/public/images/loader/image-loader.gif",
-      "title": "Apple iPhone 11 ",
-      "price": 2159,
-      "category": "smartphone",
-      "id": 15,
-      "delivery": "4 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
       "img": "https://p.rmjo.in/productSquare/jir7agyl-500x500.jpg",
       "title": "Windows i5/16GB - Powered by MF",
       "price": 4821,
@@ -2061,44 +1943,7 @@
       "deliveryicon": ""
     }
   ],
-  "cartserver": [
-    {
-      "img": "https://p.rmjo.in/productSquare/u99cxuq8-500x500.jpg",
-      "title": "Barney Leather Recliner ",
-      "price": 899,
-      "category": "livingroom",
-      "id": 72,
-      "delivery": "4 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
-      "img": "https://p.rmjo.in/productSquare/9o9eoir3-500x500.jpg",
-      "title": "Rex 3-Seater Leather Sofa ",
-      "price": 739,
-      "category": "livingroom",
-      "id": 71,
-      "delivery": "4 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
-      "img": "https://p.rmjo.in/productSquare/jir7agyl-500x500.jpg",
-      "title": "Windows i5/16GB - Powered by MF",
-      "price": 4821,
-      "category": "laptop",
-      "id": 16,
-      "delivery": "5 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    },
-    {
-      "img": "https://p.rmjo.in/productSquare/am525ijh-500x500.jpg",
-      "title": "Cross Trainer With Seat",
-      "price": 1189,
-      "category": "crosstrainer",
-      "id": 42,
-      "delivery": "4 days",
-      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-    }
-  ],
+  "cartserver": [],
   "userserver": [
     {
       "name": "Hanumat Sharan",
@@ -2142,11 +1987,19 @@
     },
     {
       "name": "hanumat",
-      "otp": 93914,
+      "otp": 12345,
       "email": "michael.lawson@reqres.in",
       "password": "rtgdfgdfgdfgd$klhh",
       "phonenumber": "8264121428",
       "id": 6
+    },
+    {
+      "name": "Hanumat Sharan",
+      "otp": 78143,
+      "email": "deotadayal27@gmail.com",
+      "password": "Hanumat@123$",
+      "phonenumber": "8264121428",
+      "id": 7
     }
   ]
 }

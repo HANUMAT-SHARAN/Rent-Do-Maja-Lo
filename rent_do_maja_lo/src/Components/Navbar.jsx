@@ -106,6 +106,7 @@ export default function Navbar(props) {
     setError(isError);
     console.log(isError);
   };
+const navito=useNavigate()
 
   React.useEffect(() => {
     getusersdata();
@@ -307,7 +308,12 @@ export default function Navbar(props) {
                   {isAuth.auth?<Text noOfLines={1}>{isAuth.name}</Text>:null}
                 </MenuButton>
                 <MenuList style={{ borderRadius: "20px" }}>
-                  <MenuItem>My Account</MenuItem>
+                  <MenuItem  ><Button  variant={"solid"}
+                  bg={"blue.500"}
+                  size={"sm"}
+                  mr={4}
+                  p={5}
+                  color="white" onClick={()=>navito("/admin")}>Admin Account</Button></MenuItem>
                   <MenuDivider />
                   <MenuItem>Wish List</MenuItem>
                   <MenuDivider />

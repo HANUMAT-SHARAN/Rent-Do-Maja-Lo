@@ -101,8 +101,8 @@ const SidebarContent = ({ onClose, ...rest }) => {
 
   const [data, setData] = React.useState([]);
 
-  const [category, setCat] = React.useState("crosstrainer");
-  const [checked, setCheck] = React.useState(2);
+  const [category, setCat] = React.useState("treadmill");
+  const [checked, setCheck] = React.useState(1);
   const [load,Setloader] =React.useState(false)
 
   

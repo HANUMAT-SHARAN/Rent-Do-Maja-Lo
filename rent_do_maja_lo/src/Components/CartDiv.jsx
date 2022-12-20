@@ -2,7 +2,7 @@ import { Flex, Image, Button, Text, Box, Select } from "@chakra-ui/react";
 import React from "react";
 
 import { ToastContainer, toast } from "react-toastify";
-function CartDiv({ title, img, price, removedata, id }) {
+function CartDiv({ title, img, price, removedata, id,sendidcount }) {
   const [mainid, setmainid] = React.useState(0);
   const [count, setCount] = React.useState(1);
   const [selectvalue, setSelectValue] = React.useState(12);
@@ -75,7 +75,7 @@ function CartDiv({ title, img, price, removedata, id }) {
           <Button
             bg="blue.100"
             disabled={count == 5 ? true : false}
-            onClick={() => [sendnew(id), setCount(count + 1), , start()]}
+            onClick={() => [sendnew(id), setCount(count + 1), , start(),sendidcount(id,count+1)]}
           >
             +
           </Button>
@@ -85,7 +85,7 @@ function CartDiv({ title, img, price, removedata, id }) {
           <Button
             bg="blue.100"
             disabled={count == 1 ? true : false}
-            onClick={() => [sendnew(id), setCount(count - 1), start()]}
+            onClick={() => [sendnew(id), setCount(count - 1), start(),sendidcount(id,count-1)]}
           >
             {" "}
             -

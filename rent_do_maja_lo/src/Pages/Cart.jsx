@@ -5,16 +5,20 @@ import CartDiv from "../Components/CartDiv";
 import React from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { Box, Button, Flex, Image, SimpleGrid, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Heading, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import "../Pages/carousel.css";
+import { AuthContext } from "../Context/AuthContext";
+import { useNavigate } from "react-router-dom";
 export default function Cart(props) {
   const [data, setData] = React.useState([]);
+  const [count, setCount] = React.useState(1);
 
-  const [totalvalue, SetTotalValue] = React.useState();
   React.useEffect(() => {
     getcart();
   }, []);
-  
+
+  const { totalsum } = React.useContext(AuthContext);
+
   let getcart = async () => {
     try {
       let cartdata = await fetch(`http://localhost:3000/cartserver`);
@@ -25,13 +29,18 @@ export default function Cart(props) {
       console.log("error ", error);
     }
   };
-
+  let sum = 0;
   let arr = [];
+  const sendidcount = (id, count) => {
+    setCount(count);
+  };
+  const navito = useNavigate();
+
   for (let i = 0; i <= data.length - 1; i++) {
     arr.push(data[i].price);
   }
-  const sum = arr.reduce((ac, el) => el + ac, 0);
-
+  sum = arr.reduce((ac, el) => el + ac, 0);
+  console.log(sum);
   //Remove Api
   const removedata = async (id) => {
     try {
@@ -46,6 +55,22 @@ export default function Cart(props) {
       position: "top-center",
     });
     getcart();
+  };
+  const emptycart=async()=>{
+    try {
+      let cartdata = await fetch(`http://localhost:3000/cartserver`);
+      let response = await cartdata.json();
+      console.log(response);
+      response=null
+      setData(response);
+    } catch (error) {
+      console.log("error ", error);
+    }
+    getcart()
+  }
+
+  const sendsum = (t) => {
+    totalsum(t);
   };
 
   return (
@@ -78,7 +103,7 @@ export default function Cart(props) {
           </Flex>
           <Flex className="cartdiv" justifyContent={"space-between"}>
             <Text> Total Payout</Text>{" "}
-            <Text>{`₹ ${sum * 2 + sum / 2 + 199}`}</Text>{" "}
+            <Text>{`₹ ${sum * count * 2 + sum / 2 + 199}`}</Text>{" "}
           </Flex>
         </Box>
         <Box className="cart">
@@ -103,7 +128,7 @@ export default function Cart(props) {
           <Flex className="cartdiv" justifyContent={"space-between"}>
             {" "}
             <Text>Total Monthly Rent</Text>{" "}
-            <Text> ₹ {sum + Math.floor((18 / 100) * sum)}</Text>
+            <Text> ₹ {sum * count + Math.floor((18 / 100) * sum)}</Text>
           </Flex>
           <Flex className="cartdiv">
             {" "}
@@ -114,9 +139,17 @@ export default function Cart(props) {
             />
             <Text ml={3}>Not to be paid now. Pay post usage every month.</Text>
           </Flex>
-          <Button color={"white"} bg={"#dc4024 "} p="7" w="auto">Proceed To Checkout</Button>
+          <Button
+            onClick={() => [navito("/checkout"), sendsum(sum),emptycart()]}
+            color={"white"}
+            bg={"#dc4024 "}
+            p="7"
+            w="auto"
+          >
+            Proceed To Checkout
+          </Button>
         </Box>
-        <Box>
+       {data.length!==0? <Box>
           {data &&
             data.map((el) => (
               <CartDiv
@@ -125,9 +158,10 @@ export default function Cart(props) {
                 img={el.img}
                 price={el.price}
                 title={el.title}
+                sendidcount={sendidcount}
               />
             ))}
-        </Box>
+        </Box>:<Heading p={10} alignItems={"center"} boxShadow={"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"} borderRadius={20}>Bhai Kya kr Raha Hai Tu ??? <br /> Rent De <br /> Maja Le  Yaar!!! </Heading>}
       </SimpleGrid>
       <ToastContainer />
       <Footer />

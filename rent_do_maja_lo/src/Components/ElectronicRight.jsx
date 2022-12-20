@@ -2,6 +2,8 @@ import React, { ReactNode } from "react";
 import { useParams } from "react-router-dom";
 import { CheckCircleIcon, InfoIcon } from "@chakra-ui/icons";
 import "../Pages/carousel.css";
+import {AuthContext} from "../Context/AuthContext"
+
 import {
   IconButton,
   Box,
@@ -64,6 +66,7 @@ const LinkItems = [
 ];
 
 export default function SimpleSidebar(props) {
+
   const {url}=props
   const { children, showmodal } = props;
 
@@ -113,6 +116,7 @@ const SidebarContent = ({ ...rest },url) => {
   const closeModal = () => {
     onClose();
   };
+  const {isAuth}=React.useContext(AuthContext)
 
   const showmodal = () => {
     onOpen();
@@ -367,6 +371,7 @@ const SidebarContent = ({ ...rest },url) => {
             <InfoIcon />
           </Flex>
           <Button
+          disabled={isAuth.auth?false:true}
             onClick={addtocart}
             p={7}
             color="white"

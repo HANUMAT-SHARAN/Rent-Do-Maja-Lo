@@ -10,6 +10,8 @@ import Cart from "../Pages/Cart";
 import PrivateRoute from "./PrivateRoute";
 import SingleElectronicsPage from "../Pages/SingleElectronicsPage";
 import SingleFitnes from "../Pages/SingleFitnes";
+import CheckoutPage from "../Pages/CheckoutPage";
+import Admin from "../Pages/Admin";
 
 export default function AllRoutes(props) {
   return (
@@ -24,6 +26,10 @@ export default function AllRoutes(props) {
         <Route path="/electronics/:id" element={<SingleElectronicsPage />}/>
         <Route path="/fitness/:id" element={<SingleFitnes />}/>
         <Route path="/cart" element={<PrivateRoute><Cart /></PrivateRoute>} />
+        <Route path="/checkout" element={<PrivateRoute><CheckoutPage /></PrivateRoute>}/>
+        <Route path="/admin" element={<PrivateRoute><Admin /></PrivateRoute>}/>
+        
+
 
       
       </Routes>
