@@ -3,7 +3,7 @@ Rent Do Maja Lo is Clone Of RentoMojo Which is used for using Rented Products Fo
 
  <h1>RentoMoJO Clone</h1>
  <h2>Landing Page</h2>
-    <img src="https://i.ibb.co/0BtZ6qN/Screenshot-from-2022-12-20-20-23-41.png" alt="">
+    <img src="https://i.ibb.co/0BtZ6qN/Screenshot-from-2022-12-20-20-23-41.png" alt="d">
    <h2>Signup Page</h2>
     <img src="https://i.ibb.co/V2fkZnp/Screenshot-from-2022-12-20-20-19-08.png" alt="">
       <h2>Login Page</h2>
