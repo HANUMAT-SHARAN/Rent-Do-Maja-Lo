@@ -3,7 +3,7 @@
 
 <h1>Rento Mojo Clone</h1>
  <h2>Home Page</h2>
-    <img src="https://i.ibb.co/0BtZ6qN/Screenshot-from-2022-12-20-20-23-41.png" alt="">
+    <img src="https://deota-dayal.imgbb.com/?list=images&sort=date_desc&page=2&params_hidden%5Buserid%5D=Nr6km2&params_hidden%5Bfrom%5D=user&seek=PWzM3B3" alt="">
   <h2>Login Page</h2>
     <img src="https://i.imgur.com/sizJMQH.png" alt="">
 <h2>Help-Page</h2>
