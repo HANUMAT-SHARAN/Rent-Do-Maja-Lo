@@ -34,6 +34,7 @@ Rent Do Maja Lo Is Clone of the RentoMojo Website Which is used for Taking produ
         <li>HTML</li>
         <li>CSS</li>
         <li>Javascript (ES6)</li>
+        <li>Chakra UI </li>
   <li>React.js</li>
   <li>React Routing</li>
         <li>node js</li>
