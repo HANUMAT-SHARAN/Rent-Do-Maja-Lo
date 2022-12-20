@@ -1764,6 +1764,15 @@
       "id": 16,
       "delivery": "5 days",
       "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
+    },
+    {
+      "img": "https://p.rmjo.in/productSquare/wnqhs5oi-500x500.jpg",
+      "title": "MacBook Pro i5 - Powered by ABCOM",
+      "price": 4001,
+      "category": "laptop",
+      "id": 17,
+      "delivery": "3 days",
+      "deliveryicon": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
     }
   ],
   "userserver": [
