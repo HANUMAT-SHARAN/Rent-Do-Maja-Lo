@@ -3,7 +3,7 @@
 
 <h1>Rento Mojo Clone</h1>
  <h2>Home Page</h2>
-    <img src="https://i.ibb.co/0BtZ6qN/Screenshot-from-2022-12-20-20-23-41.png" alt="">
+    <img src="https://i.ibb.co/MZhFqZW/Screenshot-from-2022-12-20-20-23-19.png" alt="">
   <h2>Login Page</h2>
     <img src="https://i.imgur.com/sizJMQH.png" alt="">
 <h2>Help-Page</h2>
