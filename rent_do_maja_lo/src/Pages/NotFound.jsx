@@ -29,6 +29,7 @@ export default function NotFound(props) {
       ></Image>
 
       <Button mt={5}
+      color="white"
       onClick={redirect}
         isLoading={load}
         loadingText="Redirecting"

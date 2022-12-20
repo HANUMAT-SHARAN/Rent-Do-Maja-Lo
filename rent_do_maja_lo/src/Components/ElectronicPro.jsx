@@ -58,6 +58,7 @@ export default function ElectronicPro(props) {
         <Divider />
         <Box>
           <Button
+          color="white"
             positon="absolute"
             transition={"0.8s"}
             borderRadius={20}

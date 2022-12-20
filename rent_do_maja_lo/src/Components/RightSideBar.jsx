@@ -306,7 +306,7 @@ const SidebarContent = ({ ...rest },url) => {
             >
               <Text mt={3} fontSize={22}>
                 {" "}
-                ₹ {sliderValue === 12 ? data.price - 100 : data.price}/mon
+                ₹ {sliderValue === 12 ? data.price - 100 : Math.floor( data.price/3)}/mon
               </Text>
               <Text fontSize={10}>Monthly Rent </Text>
             </Box>
@@ -416,7 +416,7 @@ const SidebarContent = ({ ...rest },url) => {
                 >
                   <Text fontSize={14}>Get Estimation</Text>
                 </Button>
-              </Flex>
+              {/* </Flex>
             </Container>
             <Text mt={3} textAlign={"left"}>
               Special Offers
@@ -438,15 +438,15 @@ const SidebarContent = ({ ...rest },url) => {
                     {" "}
                     Exchange Offer Upgrade Your Smartphone
                   </Text>
-                </Flex>
-                <Button
+                </Flex> */}
+                {/* <Button
                   color="53bec0"
                   border={"1px solid #53bec0"}
                   bg={"white"}
                   w={"full"}
                 >
                   <Text fontSize={14}>Get Estimation</Text>
-                </Button>
+                </Button> */}
               </Flex>
             </Container>
           </Container>

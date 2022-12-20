@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Rent Do Maja Lo
+Rent Do Maja Lo is Clone Of RentoMojo Which is used for using Rented Products For Different TIME Period According to the Need of The user by taking rent on Monthly Basis.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ <h1>RentoMoJO Clone</h1>
+ <h2>Landing Page</h2>
+    <img src="https://i.ibb.co/0BtZ6qN/Screenshot-from-2022-12-20-20-23-41.png" alt="">
+   <h2>Signup Page</h2>
+    <img src="https://i.ibb.co/V2fkZnp/Screenshot-from-2022-12-20-20-19-08.png" alt="">
+      <h2>Login Page</h2>
+    <img src="https://i.ibb.co/pyW4Pd4/Screenshot-from-2022-12-20-20-19-13.png" alt="">
+    <h2>Electronics-Page</h2>
+    <img src="https://i.ibb.co/k1DPpSF/Screenshot-from-2022-12-20-20-20-14.png" alt="">
+    <h2>Furniture-Page</h2>
+    <img src="https://i.ibb.co/VC0nCb3/Screenshot-from-2022-12-20-20-21-06.png" alt="">
+     <h2>Cart-Page</h2>
+    <img src="https://i.ibb.co/PZFQjJ6/Screenshot-from-2022-12-20-20-22-50.png" alt="">
+     <h2>Admin-Page</h2>
+    <img src="https://i.ibb.co/Qb2qHSx/Screenshot-from-2022-12-20-20-23-57.png" alt="">
+     <h2>Admin-Page</h2>
+    <img src="https://i.ibb.co/Qb2qHSx/Screenshot-from-2022-12-20-20-23-57.png" alt="">
+     <h2>Checkout-Page</h2>
+    <img src="https://i.ibb.co/72LqHGy/Screenshot-from-2022-12-20-20-24-12.png" alt="">
+    
+    
+    
+    <h1>[Getting Started]</h1>
+    <h3>Execution</h3>
+    <p>If you want to run our project in your local machine</p>
+    <p>Follow the given steps:</p>
+    <ul>
+        <li>Clone our respository <a href="https://github.com/HANUMAT-SHARAN/filthy-range-8205</a></li>
+        <li>Open our code in VS code</li>
+        <li>Open 'index.html' with Live server</li>
+        <li>Initialize the server by writing 'npm run start' on Terminal</li>
+    </ul>
+        <h1>Built with</h1>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript (ES6)</li>
+        <li>React.js</li>
+        <li>React Routing</li>
+        <li>node js</li>
+    </ul>
+        <h1>Creators</h1>
+    <ul>
+        <li><a href="https://github.com/HANUMAT-SHARAN">@Hanumat Sharan </a></li>
+      
+    </ul>  

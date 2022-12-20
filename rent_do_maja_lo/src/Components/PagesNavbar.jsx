@@ -23,7 +23,7 @@ export default function PagesNavbar(props) {
       <Flex mb={10} p={5} bg={"gray.200"} justifyContent={"space-around"}>
         {arr.map((el) => (
           <NavLink to={el.path} style={({ isActive }) => (isActive ? activeStyle : null)}>
-            <Box _hover={{transition:"0.8s",padding:"20px"}} style={divstyle} >
+            <Box color="black" _hover={{transition:"0.8s",padding:"20px"}} style={divstyle} >
               <Text>{el.title}</Text>
             </Box>
           </NavLink>

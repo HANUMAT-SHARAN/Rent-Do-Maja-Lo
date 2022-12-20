@@ -74,12 +74,14 @@ background-color: red;
     margin-top: 10;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding:10px;
-   background-color: #e2e8f0
+   background-color: #e2e8f0;
+   color:black;;
   }
   .admindiv .p:hover{
     background-color: rgb(205, 180, 228);
   }
   .admindiv{
+    color:black;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
    padding: 30px;
    border-radius: 20px;

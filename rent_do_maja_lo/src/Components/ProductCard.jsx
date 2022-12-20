@@ -44,6 +44,7 @@ export default function ProductCard(props) {
             </Text>
           </Box>{" "}
           <Button bg="red.100" postion="absolute">
+            
          <Image w={5} src="https://cdn1.iconfinder.com/data/icons/modern-universal/32/icon-19-64.png"></Image>
           </Button>
         </Flex>

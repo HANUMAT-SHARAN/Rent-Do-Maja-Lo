@@ -5,7 +5,15 @@ import CartDiv from "../Components/CartDiv";
 import React from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { Box, Button, Flex, Heading, Image, SimpleGrid, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Flex,
+  Heading,
+  Image,
+  SimpleGrid,
+  Text,
+} from "@chakra-ui/react";
 import "../Pages/carousel.css";
 import { AuthContext } from "../Context/AuthContext";
 import { useNavigate } from "react-router-dom";
@@ -56,18 +64,18 @@ export default function Cart(props) {
     });
     getcart();
   };
-  const emptycart=async()=>{
+  const emptycart = async () => {
     try {
       let cartdata = await fetch(`http://localhost:3000/cartserver`);
       let response = await cartdata.json();
       console.log(response);
-      response=null
+      response = null;
       setData(response);
     } catch (error) {
       console.log("error ", error);
     }
-    getcart()
-  }
+    getcart();
+  };
 
   const sendsum = (t) => {
     totalsum(t);
@@ -140,7 +148,7 @@ export default function Cart(props) {
             <Text ml={3}>Not to be paid now. Pay post usage every month.</Text>
           </Flex>
           <Button
-            onClick={() => [navito("/checkout"), sendsum(sum),emptycart()]}
+            onClick={() => [navito("/checkout"), sendsum(sum), emptycart()]}
             color={"white"}
             bg={"#dc4024 "}
             p="7"
@@ -149,19 +157,32 @@ export default function Cart(props) {
             Proceed To Checkout
           </Button>
         </Box>
-       {data.length!==0? <Box>
-          {data &&
-            data.map((el) => (
-              <CartDiv
-                removedata={removedata}
-                id={el.id}
-                img={el.img}
-                price={el.price}
-                title={el.title}
-                sendidcount={sendidcount}
-              />
-            ))}
-        </Box>:<Heading p={10} alignItems={"center"} boxShadow={"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"} borderRadius={20}>Bhai Kya kr Raha Hai Tu ??? <br /> Rent De <br /> Maja Le  Yaar!!! </Heading>}
+        {data.length !== 0 ? (
+          <Box>
+            {data &&
+              data.map((el) => (
+                <CartDiv
+                  removedata={removedata}
+                  id={el.id}
+                  img={el.img}
+                  price={el.price}
+                  title={el.title}
+                  sendidcount={sendidcount}
+                />
+              ))}
+          </Box>
+        ) : (
+          <Heading
+            p={10}
+            alignItems={"center"}
+            boxShadow={
+              "rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
+            }
+            borderRadius={20}
+          >
+            Bhai Kya kr Raha Hai Tu ??? <br /> Rent De <br /> Maja Le Yaar!!!{" "}
+          </Heading>
+        )}
       </SimpleGrid>
       <ToastContainer />
       <Footer />

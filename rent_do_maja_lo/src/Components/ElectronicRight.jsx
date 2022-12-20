@@ -207,7 +207,7 @@ const SidebarContent = ({ ...rest },url) => {
       i5: "https://www.rentomojo.com/public/images/product/compare-tenure/7-days-free-trial.svg",
     },
     {
-      title: `Min 12 Month Tenure    ---- ₹ ${data.price - 100}`,
+      title: `Min 12 Month Tenure    ---- ₹ ${data.price - Math.floor( data.price/3)}`,
       t1: "11%",
       t2: "1.5 Month's Rent",
       t3: "After 6 months",
@@ -307,7 +307,7 @@ const SidebarContent = ({ ...rest },url) => {
             >
               <Text mt={3} fontSize={22}>
                 {" "}
-                ₹ {sliderValue === 12 ? data.price - 100 : data.price}/mon
+                ₹ {sliderValue === 12 ? data.price -Math.floor( data.price/3) : data.price}/mon
               </Text>
               <Text fontSize={10}>Monthly Rent </Text>
             </Box>
