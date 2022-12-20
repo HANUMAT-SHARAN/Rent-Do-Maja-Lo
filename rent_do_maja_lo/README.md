@@ -4,10 +4,12 @@
 <h1>Rento Mojo Clone</h1>
  <h2>Home Page</h2>
     <img src="https://i.ibb.co/MZhFqZW/Screenshot-from-2022-12-20-20-23-19.png" alt="">
-  <h2>Login Page</h2>
-    <img src="https://i.imgur.com/sizJMQH.png" alt="">
-<h2>Help-Page</h2>
-    <img src="https://user-images.githubusercontent.com/99539536/171555654-426035b8-9f13-4de9-90a4-a9d0a41da041.png" alt="">
+  <h2>Signup Page</h2>
+    <img src="https://i.ibb.co/V2fkZnp/Screenshot-from-2022-12-20-20-19-08.png" alt="">
+<h2>Login-Page</h2>
+    <img src="https://i.ibb.co/pyW4Pd4/Screenshot-from-2022-12-20-20-19-13.png" alt="">
+    <h2>Electronics-Page</h2>
+    <img src="https://i.ibb.co/k1DPpSF/Screenshot-from-2022-12-20-20-20-14.png" alt="">
     <h1>[Getting Started]</h1>
     <h3>Execution</h3>
     <p>If you want to run our project in your local machine</p>
