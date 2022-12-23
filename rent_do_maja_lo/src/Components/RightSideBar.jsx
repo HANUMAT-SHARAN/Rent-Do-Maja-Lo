@@ -125,7 +125,7 @@ const SidebarContent = ({ ...rest },url) => {
 
   const showdata = async (id) => {
     try {
-      let product = await fetch(`http://localhost:3000/furniture/${id}`);
+      let product = await fetch(`https://rent-do-maja-lo.onrender.com//furniture/${id}`);
       let res = await product.json();
       setData(res);
     } catch (error) {
@@ -138,7 +138,7 @@ const SidebarContent = ({ ...rest },url) => {
 
   const addtocart = async () => {
     try {
-    let datacart=await fetch(`http://localhost:3000/cartserver`,{
+    let datacart=await fetch(`https://rent-do-maja-lo.onrender.com//cartserver`,{
 
       method:"POST",
       headers:{"Content-Type":"application/json"},

@@ -29,7 +29,7 @@ export default function Cart(props) {
 
   let getcart = async () => {
     try {
-      let cartdata = await fetch(`http://localhost:3000/cartserver`);
+      let cartdata = await fetch(`https://rent-do-maja-lo.onrender.com//cartserver`);
       let response = await cartdata.json();
       console.log(response);
       setData(response);
@@ -52,7 +52,7 @@ export default function Cart(props) {
   //Remove Api
   const removedata = async (id) => {
     try {
-      let cartdata = await fetch(`http://localhost:3000/cartserver/${id}`, {
+      let cartdata = await fetch(`https://rent-do-maja-lo.onrender.com//cartserver/${id}`, {
         method: "DELETE",
       });
     } catch (error) {
@@ -66,7 +66,7 @@ export default function Cart(props) {
   };
   const emptycart = async () => {
     try {
-      let cartdata = await fetch(`http://localhost:3000/cartserver`);
+      let cartdata = await fetch(`https://rent-do-maja-lo.onrender.com//cartserver`);
       let response = await cartdata.json();
       console.log(response);
       response = null;

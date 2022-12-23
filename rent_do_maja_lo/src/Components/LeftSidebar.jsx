@@ -125,7 +125,7 @@ const SidebarContent = ({ onClose, ...rest }) => {
   const getdata = (category) => {
     // Setloader(true)
     axios
-      .get(`http://localhost:3000/furniture?category=${category}`)
+      .get(`https://rent-do-maja-lo.onrender.com//furniture?category=${category}`)
       .then((res) =>{
       Setloader(true)
        setData(res.data)

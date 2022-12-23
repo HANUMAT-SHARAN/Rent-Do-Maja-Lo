@@ -30,7 +30,7 @@ export default function SingleFitnes(props) {
 
   const showdata = async (id) => {
     try {
-      let product = await fetch(`http://localhost:3000/electronics/${id}`);
+      let product = await fetch(`https://rent-do-maja-lo.onrender.com//electronics/${id}`);
       let res = await product.json();
       setData(res);
     } catch (error) {

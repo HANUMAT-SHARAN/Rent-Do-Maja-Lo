@@ -114,7 +114,7 @@ const navito=useNavigate()
   console.log(userdata);
   const registeruser = async () => {
     try {
-      let data = await fetch(`http://localhost:3000/userserver`, {
+      let data = await fetch(`https://rent-do-maja-lo.onrender.com//userserver`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(userdata),
@@ -138,7 +138,7 @@ const navito=useNavigate()
  
   const getusersdata = async () => {
     try {
-      let data = await fetch(`http://localhost:3000/userserver`);
+      let data = await fetch(`https://rent-do-maja-lo.onrender.com//userserver`);
       let res = await data.json();
       console.log(res);
       setPresentusers(res);

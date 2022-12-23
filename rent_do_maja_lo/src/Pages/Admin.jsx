@@ -24,7 +24,7 @@ export default function Admin(props) {
   };
 
   const sendata = async () => {
-    let data = fetch(`http://localhost:3000/electronics`, {
+    let data = fetch(`https://rent-do-maja-lo.onrender.com//electronics`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newdata),
@@ -39,7 +39,7 @@ export default function Admin(props) {
 
   const updatedata = async () => {
     try {
-      let datap = await fetch(`http://localhost:3000/electronics/${data.id}`, {
+      let datap = await fetch(`https://rent-do-maja-lo.onrender.com//electronics/${data.id}`, {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
@@ -59,7 +59,7 @@ export default function Admin(props) {
 
   const deleteproduct=async()=>{
     try {
-      let datap = await fetch(`http://localhost:3000/electronics/${ddata.id}`, {
+      let datap = await fetch(`https://rent-do-maja-lo.onrender.com//electronics/${ddata.id}`, {
         method: "DELETE",
         
       });
