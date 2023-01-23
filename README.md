@@ -2,22 +2,22 @@
 Rent Do Maja Lo Is Clone of the RentoMojo Website Which is used for Taking products home on rented basis to use them according the required Time Duration By Taking Some Rent From the Customer
 
 
-<h1>Rento Mojo Clone</h1>
- <h2>Home Page</h2>
+
+ <h1>Home Page</h1>
     <img src="https://i.ibb.co/MZhFqZW/Screenshot-from-2022-12-20-20-23-19.png" alt="">
-  <h2>Signup Page</h2>
+  <h1>Signup Page</h1>
     <img src="https://i.ibb.co/V2fkZnp/Screenshot-from-2022-12-20-20-19-08.png" alt="">
-<h2>Login-Page</h2>
+<h1>Login-Page</h1>
     <img src="https://i.ibb.co/pyW4Pd4/Screenshot-from-2022-12-20-20-19-13.png" alt="">
-    <h2>Electronics-Page</h2>
+    <h1>Electronics-Page</h1>
     <img src="https://i.ibb.co/2kp9K6c/Screenshot-from-2022-12-20-22-10-41.png" alt="">
-     <h2>SingleProduct-Page</h2>
+     <h1>SingleProduct-Page</h1>
     <img src="https://i.ibb.co/Z160gkJ/Screenshot-from-2022-12-20-20-22-10.png" alt="">
-     <h2>Cart-Page</h2>
+     <h1>Cart-Page</h1>
     <img src="https://i.ibb.co/M7vnypg/Screenshot-from-2022-12-20-22-11-01.png" alt="">
-    <h2>Admin-Page</h2>
+    <h1>Admin-Page</h1>
     <img src="https://i.ibb.co/Qb2qHSx/Screenshot-from-2022-12-20-20-23-57.png" alt="">
-    <h2>Checkout Page</h2>
+    <h1>Checkout Page</h1>
     <img src="https://i.ibb.co/72LqHGy/Screenshot-from-2022-12-20-20-24-12.png">
     <h1>[Getting Started]</h1>
     <h3>Execution</h3>
