@@ -1,6 +1,8 @@
 # RENT DO MAJA LO
 Rent Do Maja Lo Is Clone of the RentoMojo Website Which is used for Taking products home on rented basis to use them according the required Time Duration By Taking Some Rent From the Customer
 
+<h3>Live Demo Link https://rent-do-maja-lo-hanumat-sharan.vercel.app/ </h3>
+
 
 
  <h1>Home Page</h1>
