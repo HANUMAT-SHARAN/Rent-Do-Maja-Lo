@@ -28,7 +28,7 @@ Rent Do Maja Lo Is Clone of the RentoMojo Website Which is used for Taking produ
     <ul>
         <li>Clone our respository <a href="https://github.com/HANUMAT-SHARAN/filthy-range-8205">https://github.com/HANUMAT-SHARAN/filthy-range-8205</a></li>
         <li>Open our code in VS code</li>
-        <li>Open 'index.html' with Live server</li>
+        <<li>Then do npm install</li>
         <li>Initialize the server by writing 'npm run start' on Terminal</li>
          <li>Congrats! you have successfully sarted the application.</li>
     </ul>
