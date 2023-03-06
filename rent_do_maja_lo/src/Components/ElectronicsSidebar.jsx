@@ -65,7 +65,7 @@ export default function ElectronicSidebar(props) {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Box  bg={useColorModeValue("gray.100", "gray.900")}>
+    <Box bg={useColorModeValue("gray.100", "gray.900")}>
       <SidebarContent
         onClose={() => onClose}
         display={{ base: "none", md: "block" }}
@@ -85,9 +85,7 @@ export default function ElectronicSidebar(props) {
       </Drawer>
       {/* mobilenav */}
       <MobileNav display={{ base: "flex", md: "none" }} onOpen={onOpen} />
-      <Box ml={{ base: 0, md: 60 }} >
-        {children}
-      </Box>
+      <Box ml={{ base: 0, md: 60 }}>{children}</Box>
     </Box>
   );
 }
@@ -115,7 +113,7 @@ const SidebarContent = ({ onClose, ...rest }) => {
   }, [category]);
 
   const getdata = (category) => {
-    // Setloader(true)
+    
     axios
       .get(
         `https://rent-do-maja-lo.onrender.com//electronics?category=${category}`
@@ -126,31 +124,23 @@ const SidebarContent = ({ onClose, ...rest }) => {
         // ddfdf
         getElecData(res.data);
         Setloader(false);
-        success()
-       
       });
   };
   const setcategory = (f) => {
+ 
     setCheck(f[0]);
     if (f[0] == 1 && f[1] == true) {
       setCat("smartphone");
-    ;
     } else if (f[0] == 2 && f[1] == true) {
       setCat("laptop");
-    ;
     } else if (f[0] == 3 && f[1] == true) {
       setCat("smartdevices");
-    ;
     } else if (f[0] == 4 && f[1] == true) {
       setCat("tablets");
-    ;
     }
-    //done
-    // is left now
   };
 
-  console.log(load);
-  const navto = useNavigate();
+
 
   const Checkboxarr = [
     { title: "Smart Phone", id: 1 },
@@ -169,20 +159,22 @@ const SidebarContent = ({ onClose, ...rest }) => {
           bg={useColorModeValue("white", "gray.100")}
           borderRight="1px"
           borderRightColor={useColorModeValue("gray.200", "gray.700")}
-          w={{ base: 'full', md: 300 }}
+          w={{ base: "full", md: 300 }}
           pos="relative"
           left={0}
           display={{ base: "block", md: "none" }}
           h="full"
           {...rest}
         >
-           <Box p={4}  right={0} > <CloseButton
-           size={30}
-          
-           color="red"
-            display={{ base: "flex", md: "none" }}
-            onClick={onClose}
-          /></Box>
+          <Box p={4} right={0}>
+            {" "}
+            <CloseButton
+              size={30}
+              color="red"
+              display={{ base: "flex", md: "none" }}
+              onClick={onClose}
+            />
+          </Box>
           <Flex
             borderRadius={"5px"}
             p={5}
@@ -280,7 +272,7 @@ const SidebarContent = ({ onClose, ...rest }) => {
                 Checkboxarr.map((el) => (
                   <Checkbox
                     size="md"
-                    onChange={(e) => setcategory([el.id, e.target.checked])}
+                    onChange={(e) => [setcategory([el.id, e.target.checked])]}
                     colorScheme="red"
                     isChecked={el.id == checked ? true : false}
                   >
@@ -290,7 +282,6 @@ const SidebarContent = ({ onClose, ...rest }) => {
             </Stack>
           </Container>
           <ToastContainer />
-        
 
           {LinkItems &&
             LinkItems.map((link) => (
