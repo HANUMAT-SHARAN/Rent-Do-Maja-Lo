@@ -237,12 +237,7 @@ const SidebarContent = ({ ...rest }, url) => {
         >
           <Box p={4} right={0}>
             {" "}
-            <CloseButton
-              size={30}
-              color="red"
-              display={{ base: "flex", md: "none" }}
-              onClick={()=>closeModal()}
-            />
+           <Text>{`<-`}Press Back To Close</Text>
           </Box>
           <Flex
             borderRadius={"5px"}
