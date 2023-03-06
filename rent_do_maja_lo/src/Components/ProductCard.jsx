@@ -13,39 +13,41 @@ import {
 } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 
-
 export default function ProductCard(props) {
-  const { title, price, img, dimg,id } = props;
+  const { title, price, img, dimg, id } = props;
   const [notbutton, showbutton] = React.useState(false);
 
-  const navto=useNavigate()
+  const navto = useNavigate();
   return (
     <>
       <Box
-      onClick={()=>navto(`/product/${id}`)}
-      style={{boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",}}
-      borderRadius={15}
+        onClick={() => navto(`/product/${id}`)}
+        style={{ boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px" }}
+        borderRadius={15}
         onMouseEnter={() => showbutton(true)}
         onMouseLeave={() => showbutton(false)}
         w="250px"
         m="auto"
         p="10px"
       >
-        <Image   borderRadius={15} m={"auto"} w={250} src={img} alt="game"></Image>
-        <Flex
- 
-          alignItems={"center"}
-          justifyContent={"space-between"}
-        >
+        <Image
+          borderRadius={15}
+          m={"auto"}
+          w={250}
+          src={img}
+          alt="game"
+        ></Image>
+        <Flex alignItems={"center"} justifyContent={"space-between"}>
           <Box>
-           
             <Text noOfLines={1} fontSize={"14px"}>
               {title}
             </Text>
           </Box>{" "}
           <Button bg="red.100" postion="absolute">
-            
-         <Image w={5} src="https://cdn1.iconfinder.com/data/icons/modern-universal/32/icon-19-64.png"></Image>
+            <Image
+              w={5}
+              src="https://cdn1.iconfinder.com/data/icons/modern-universal/32/icon-19-64.png"
+            ></Image>
           </Button>
         </Flex>
         <Divider />
