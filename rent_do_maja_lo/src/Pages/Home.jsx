@@ -75,7 +75,7 @@ export default function Home(props) {
         mt={10}
         alignItems={"center"}
      
-        columns={{ base: 3, md: 4, lg: 5, xl: 6,  }}
+        columns={{ base: 2, md: 3, lg: 5, xl: 6,  }}
        gap="20px"
       >
         {boxarr.map((el) => (
