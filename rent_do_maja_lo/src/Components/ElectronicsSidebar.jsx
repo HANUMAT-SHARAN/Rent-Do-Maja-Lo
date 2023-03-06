@@ -126,22 +126,24 @@ const SidebarContent = ({ onClose, ...rest }) => {
         // ddfdf
         getElecData(res.data);
         Setloader(false);
+        success()
+       
       });
   };
   const setcategory = (f) => {
     setCheck(f[0]);
     if (f[0] == 1 && f[1] == true) {
       setCat("smartphone");
-      success();
+    ;
     } else if (f[0] == 2 && f[1] == true) {
       setCat("laptop");
-      success();
+    ;
     } else if (f[0] == 3 && f[1] == true) {
       setCat("smartdevices");
-      success();
+    ;
     } else if (f[0] == 4 && f[1] == true) {
       setCat("tablets");
-      success();
+    ;
     }
     //done
     // is left now
