@@ -2,7 +2,7 @@ import React, { ReactNode } from "react";
 import { useParams } from "react-router-dom";
 import { CheckCircleIcon, InfoIcon } from "@chakra-ui/icons";
 import "../Pages/carousel.css";
-import {AuthContext} from "../Context/AuthContext"
+import { AuthContext } from "../Context/AuthContext";
 
 import {
   IconButton,
@@ -53,7 +53,6 @@ import {
   FiMenu,
 } from "react-icons/fi";
 
-
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -66,14 +65,13 @@ const LinkItems = [
 ];
 
 export default function SimpleSidebar(props) {
-
-  const {url}=props
+  const { url } = props;
   const { children, showmodal } = props;
 
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Box minH="100vh" bg={useColorModeValue("gray.100", "gray.900")}>
+    <Box bg={useColorModeValue("gray.100", "gray.900")}>
       <SidebarContent
         onClose={() => onClose}
         display={{ base: "none", md: "block" }}
@@ -81,11 +79,12 @@ export default function SimpleSidebar(props) {
       <Drawer
         autoFocus={false}
         isOpen={isOpen}
-        placement="left"
+        right={0}
         onClose={onClose}
         returnFocusOnClose={false}
         onOverlayClick={onClose}
         size="full"
+        pos="relative"
       >
         <DrawerContent>
           <SidebarContent onClose={onClose} />
@@ -100,23 +99,22 @@ export default function SimpleSidebar(props) {
   );
 }
 
+const SidebarContent = ({ ...rest }, url) => {
 
-
-const SidebarContent = ({ ...rest },url) => {
-  console.log(url)
   const [data, setData] = React.useState({});
-  const { isOpen, onOpen, onClose } = useDisclosure();
+ 
   const finalRef = React.useRef(null);
   const fref = React.useRef(null);
   const [sliderValue, setSliderValue] = React.useState(12);
   const { id } = useParams();
-  console.log(sliderValue);
+
   const [showTooltip, setShowTooltip] = React.useState(false);
   const [modalid, setModalid] = React.useState();
+  const { isOpen, onOpen, onClose } = useDisclosure();
   const closeModal = () => {
     onClose();
   };
-  const {isAuth}=React.useContext(AuthContext)
+  const { isAuth } = React.useContext(AuthContext);
 
   const showmodal = () => {
     onOpen();
@@ -128,30 +126,34 @@ const SidebarContent = ({ ...rest },url) => {
 
   const showdata = async (id) => {
     try {
-      let product = await fetch(`https://rent-do-maja-lo.onrender.com//electronics/${id}`);
+      let product = await fetch(
+        `https://rent-do-maja-lo.onrender.com//electronics/${id}`
+      );
       let res = await product.json();
       setData(res);
     } catch (error) {
       console.log("error ", error);
     }
   };
- 
 
   const addtocart = async () => {
     try {
-    let datacart=await fetch(`https://rent-do-maja-lo.onrender.com//cartserver`,{
-
-      method:"POST",
-      headers:{"Content-Type":"application/json"},
-      body:JSON.stringify(data)
-    })
-   
-
+      let datacart = await fetch(
+        `https://rent-do-maja-lo.onrender.com//cartserver`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data),
+        }
+      );
     } catch (error) {
       console.log("error ", error);
     }
-    const notifysucess=toast.success("Item Add to cart Succesfully",{theme:"colored",position:"top-center"})
-    notifysucess()
+    const notifysucess = toast.success("Item Add to cart Succesfully", {
+      theme: "colored",
+      position: "top-center",
+    });
+    notifysucess();
   };
   const estimatearr = [
     {
@@ -207,7 +209,9 @@ const SidebarContent = ({ ...rest },url) => {
       i5: "https://www.rentomojo.com/public/images/product/compare-tenure/7-days-free-trial.svg",
     },
     {
-      title: `Min 12 Month Tenure    ---- ₹ ${data.price - Math.floor( data.price/3)}`,
+      title: `Min 12 Month Tenure    ---- ₹ ${
+        data.price - Math.floor(data.price / 3)
+      }`,
       t1: "11%",
       t2: "1.5 Month's Rent",
       t3: "After 6 months",
@@ -229,10 +233,17 @@ const SidebarContent = ({ ...rest },url) => {
           borderRight="1px"
           borderRightColor={useColorModeValue("gray.200", "gray.700")}
           w={{ base: "full", md: 350 }}
-          right={0}
-          pos="absolute"
           {...rest}
         >
+          <Box p={4} right={0}>
+            {" "}
+            <CloseButton
+              size={30}
+              color="red"
+              display={{ base: "flex", md: "none" }}
+              onClick={()=>closeModal()}
+            />
+          </Box>
           <Flex
             borderRadius={"5px"}
             p={2}
@@ -307,7 +318,11 @@ const SidebarContent = ({ ...rest },url) => {
             >
               <Text mt={3} fontSize={22}>
                 {" "}
-                ₹ {sliderValue === 12 ? data.price -Math.floor( data.price/3) : data.price}/mon
+                ₹{" "}
+                {sliderValue === 12
+                  ? data.price - Math.floor(data.price / 3)
+                  : data.price}
+                /mon
               </Text>
               <Text fontSize={10}>Monthly Rent </Text>
             </Box>
@@ -371,7 +386,7 @@ const SidebarContent = ({ ...rest },url) => {
             <InfoIcon />
           </Flex>
           <Button
-          disabled={isAuth.auth?false:true}
+            disabled={isAuth.auth ? false : true}
             onClick={addtocart}
             p={7}
             color="white"
@@ -621,9 +636,6 @@ const NavItem = ({ icon, children, ...rest }) => {
   );
 };
 
-// interface MobileProps extends FlexProps {
-//   onOpen: () => void;
-// }
 const MobileNav = ({ onOpen, ...rest }) => {
   return (
     <Flex
@@ -643,9 +655,10 @@ const MobileNav = ({ onOpen, ...rest }) => {
         aria-label="open menu"
         icon={<FiMenu />}
       />
+     
 
       <Text fontSize="2xl" ml="8" fontFamily="monospace" fontWeight="bold">
-        Logo
+        Rento Do Maja Lo
       </Text>
     </Flex>
   );

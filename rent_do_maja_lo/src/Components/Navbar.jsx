@@ -247,7 +247,7 @@ const navito=useNavigate()
 
             <Flex
            
-             width={400}
+             width={"auto"}
               alignItems={"center"}
               justifyContent="space-evenly"
             >

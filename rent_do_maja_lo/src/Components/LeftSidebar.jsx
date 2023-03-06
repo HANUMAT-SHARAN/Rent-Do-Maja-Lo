@@ -2,7 +2,7 @@ import React, { ReactNode } from "react";
 import ProductCard from "../Components/ProductCard";
 import logo from "../Images/logo.jpg";
 import { useNavigate, useSearchParams } from "react-router-dom";
-
+import { AuthContext } from "../Context/AuthContext";
 import {
   IconButton,
   Box,
@@ -64,7 +64,7 @@ export default function SimpleSidebar(props) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   
   return (
-    <Box minH="100vh" bg={useColorModeValue("gray.100", "gray.900")}>
+    <Box  bg={useColorModeValue("gray.100", "gray.900")}>
       <SidebarContent
         onClose={() => onClose}
         display={{ base: "none", md: "block" }}
@@ -96,6 +96,7 @@ export default function SimpleSidebar(props) {
 // }
 
 const SidebarContent = ({ onClose, ...rest }) => {
+  const { getFurnitureData } = React.useContext(AuthContext);
 
   const [searchParams,SetSearchParams]=useSearchParams()
 
@@ -119,6 +120,7 @@ const SidebarContent = ({ onClose, ...rest }) => {
    
     SetSearchParams({category})
     
+    
  
   }, [category]);
 
@@ -129,7 +131,7 @@ const SidebarContent = ({ onClose, ...rest }) => {
       .then((res) =>{
       Setloader(true)
        setData(res.data)
-      
+       getFurnitureData(res.data)
        Setloader(false)});
       
      
@@ -138,16 +140,16 @@ const SidebarContent = ({ onClose, ...rest }) => {
     setCheck(f[0]);
     if (f[0] == 1 && f[1] == true) {
       setCat("bedroom");
-      success();
+      
     } else if (f[0] == 2 && f[1] == true) {
       setCat("livingroom");
-      success();
+      
     } else if (f[0] == 3 && f[1] == true) {
       setCat("kitchen");
-      success();
+      
     } else if (f[0] == 4 && f[1] == true) {
       setCat("wfm");
-      success();
+      
     }
     //done
     // is left now
@@ -181,7 +183,15 @@ const SidebarContent = ({ onClose, ...rest }) => {
         h="full"
         {...rest}
       >
-       
+      <Box p={4} right={0}>
+            {" "}
+            <CloseButton
+              size={30}
+              color="red"
+              display={{ base: "flex", md: "none" }}
+              onClick={onClose}
+            />
+          </Box>
         <Flex
           borderRadius={"5px"}
           p={5}
@@ -280,7 +290,7 @@ const SidebarContent = ({ onClose, ...rest }) => {
           </Stack>
         </Container>
         <ToastContainer />
-        <CloseButton display={{ base: "flex", md: "none" }} onClick={onClose} />
+       
 
         {LinkItems&&LinkItems.map((link) => (
           <NavItem key={link.name} icon={link.icon}>
@@ -290,7 +300,7 @@ const SidebarContent = ({ onClose, ...rest }) => {
       
       </Box>
     
-      <SimpleGrid
+      {/* <SimpleGrid
        position="relative"
         columns={[1, 2, 3]}
         spacing={[0, 9, 10]}
@@ -308,53 +318,17 @@ const SidebarContent = ({ onClose, ...rest }) => {
             dimg={el.deliveryicon}
           />
         ))}
-      </SimpleGrid> 
+      </SimpleGrid>  */}
       </Flex>
-      {/* Th
-      is Is the Place where all the Data Appending Will Be Going to Happen */}
-{/* 
-      {load?<Loader />:<SimpleGrid
-       position="relative"
-        columns={[1, 2, 3]}
-        spacing={[0, 9, 10]}
-        ml={[0, 0, 350]}
-        textAlign="right"
-      >
-        {data&&data.map((el) => (
-          <ProductCard
-            img={el.img}
-            price={el.price}
-            title={el.title}
-            dimg={el.deliveryicon}
-          />
-        ))}
-      </SimpleGrid>} */}
+     
       <ToastContainer />
 
-      {/* {load?<Loader />:<SimpleGrid
-       position="relative"
-        columns={[1, 2, 3]}
-        spacing={[0, 9, 10]}
-        ml={[0, 0, 350]}
-        textAlign="right"
-      >
-        {data&&data.map((el) => (
-          <ProductCard
-            img={el.img}
-            price={el.price}
-            title={el.title}
-            dimg={el.deliveryicon}
-          />
-        ))}
-      </SimpleGrid>} */}
+    
     </div>
   );
 };
 
-// interface NavItemProps extends FlexProps {
-//   icon: IconType;
-//   children: ReactText;
-// }
+
 const NavItem = ({ icon, children, ...rest }) => {
   return (
     <Link
@@ -391,9 +365,7 @@ const NavItem = ({ icon, children, ...rest }) => {
   );
 };
 
-// interface MobileProps extends FlexProps {
-//   onOpen: () => void;
-// }
+
 const MobileNav = ({ onOpen, ...rest }) => {
   return (
     <Flex
@@ -415,7 +387,7 @@ const MobileNav = ({ onOpen, ...rest }) => {
       />
 
       <Text fontSize="2xl" ml="8" fontFamily="monospace" fontWeight="bold">
-        Logo
+        Rent Do Maja Lo
       </Text>
     </Flex>
   );

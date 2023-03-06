@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { CheckCircleIcon, InfoIcon } from "@chakra-ui/icons";
 import "../Pages/carousel.css";
 import { AuthContext } from "../Context/AuthContext";
@@ -10,7 +10,6 @@ import {
   Flex,
   Icon,
   useColorModeValue,
-  Link,
   Drawer,
   DrawerContent,
   Text,
@@ -52,7 +51,6 @@ import {
   FiMenu,
 } from "react-icons/fi";
 
-
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -65,7 +63,7 @@ const LinkItems = [
 ];
 
 export default function SimpleSidebar(props) {
-  const {url}=props
+  const { url } = props;
   const { children, showmodal } = props;
 
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -90,7 +88,7 @@ export default function SimpleSidebar(props) {
         </DrawerContent>
       </Drawer>
       {/* mobilenav */}
-      <MobileNav display={{ base: "flex", md: "none" }} onOpen={onOpen} />
+      <MobileNav display={{ base: "flex", md: "none" }}onClose={onClose} onOpen={onOpen} />
       <Box ml={{ base: 0, md: 60 }} p="4">
         {children}
       </Box>
@@ -98,10 +96,7 @@ export default function SimpleSidebar(props) {
   );
 }
 
-
-
-const SidebarContent = ({ ...rest },url) => {
-  console.log(url)
+const SidebarContent = ({ ...rest }) => {
   const [data, setData] = React.useState({});
   const { isOpen, onOpen, onClose } = useDisclosure();
   const finalRef = React.useRef(null);
@@ -125,7 +120,9 @@ const SidebarContent = ({ ...rest },url) => {
 
   const showdata = async (id) => {
     try {
-      let product = await fetch(`https://rent-do-maja-lo.onrender.com//furniture/${id}`);
+      let product = await fetch(
+        `https://rent-do-maja-lo.onrender.com//furniture/${id}`
+      );
       let res = await product.json();
       setData(res);
     } catch (error) {
@@ -133,24 +130,26 @@ const SidebarContent = ({ ...rest },url) => {
     }
   };
 
-  const {isAuth}=React.useContext(AuthContext)
- 
+  const { isAuth } = React.useContext(AuthContext);
 
   const addtocart = async () => {
     try {
-    let datacart=await fetch(`https://rent-do-maja-lo.onrender.com//cartserver`,{
-
-      method:"POST",
-      headers:{"Content-Type":"application/json"},
-      body:JSON.stringify(data)
-    })
-   
-
+      let datacart = await fetch(
+        `https://rent-do-maja-lo.onrender.com//cartserver`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data),
+        }
+      );
     } catch (error) {
       console.log("error ", error);
     }
-    const notifysucess=toast.success("Item Add to cart Succesfully",{theme:"colored",position:"top-center"})
-    notifysucess()
+    const notifysucess = toast.success("Item Add to cart Succesfully", {
+      theme: "colored",
+      position: "top-center",
+    });
+    notifysucess();
   };
   const estimatearr = [
     {
@@ -222,14 +221,24 @@ const SidebarContent = ({ ...rest },url) => {
 
   return (
     <div>
+      
       <Flex>
+      <Box p={4} right={0}>
+            {" "}
+            <CloseButton
+              size={30}
+              color="red"
+              display={{ base: "flex", md: "none" }}
+              onClick={onClose}
+            />
+          </Box>
         <Box
+          ml={10}
           bg={useColorModeValue("white", "gray.900")}
           borderRight="1px"
           borderRightColor={useColorModeValue("gray.200", "gray.700")}
           w={{ base: "full", md: 350 }}
           right={0}
-          pos="absolute"
           {...rest}
         >
           <Flex
@@ -306,7 +315,11 @@ const SidebarContent = ({ ...rest },url) => {
             >
               <Text mt={3} fontSize={22}>
                 {" "}
-                ₹ {sliderValue === 12 ? data.price - 100 : Math.floor( data.price/3)}/mon
+                ₹{" "}
+                {sliderValue === 12
+                  ? data.price - 100
+                  : Math.floor(data.price / 3)}
+                /mon
               </Text>
               <Text fontSize={10}>Monthly Rent </Text>
             </Box>
@@ -370,7 +383,7 @@ const SidebarContent = ({ ...rest },url) => {
             <InfoIcon />
           </Flex>
           <Button
-          disabled={isAuth.auth?false:true}
+            disabled={isAuth.auth ? false : true}
             onClick={addtocart}
             p={7}
             color="white"
@@ -416,37 +429,6 @@ const SidebarContent = ({ ...rest },url) => {
                 >
                   <Text fontSize={14}>Get Estimation</Text>
                 </Button>
-              {/* </Flex>
-            </Container>
-            <Text mt={3} textAlign={"left"}>
-              Special Offers
-            </Text>
-            <Container bg="white" mt={3} border={"1px solid #e2eaf0"}>
-              <Flex
-                p={1}
-                alignItems={"center"}
-                justifyContent={"space-between"}
-              >
-                <Flex
-                  mr={5}
-                  w={"300px"}
-                  alignItems={"center"}
-                  justifyContent={"space-around"}
-                >
-                  <Image src="https://www.rentomojo.com/public/images/icons/exchange.svg" />
-                  <Text fontSize={11}>
-                    {" "}
-                    Exchange Offer Upgrade Your Smartphone
-                  </Text>
-                </Flex> */}
-                {/* <Button
-                  color="53bec0"
-                  border={"1px solid #53bec0"}
-                  bg={"white"}
-                  w={"full"}
-                >
-                  <Text fontSize={14}>Get Estimation</Text>
-                </Button> */}
               </Flex>
             </Container>
           </Container>
@@ -570,10 +552,13 @@ const SidebarContent = ({ ...rest },url) => {
             </ModalContent>
           </Modal>
           <ToastContainer />
-          <CloseButton
-            display={{ base: "flex", md: "none" }}
-            onClick={onClose}
-          />
+          <Link>
+            <CloseButton
+              display={{ base: "flex", md: "none" }}
+              onClick={() => console.log(1)}
+              to="/"
+            />
+          </Link>
 
           {/* Nav items were her like home */}
         </Box>
@@ -620,9 +605,6 @@ const NavItem = ({ icon, children, ...rest }) => {
   );
 };
 
-// interface MobileProps extends FlexProps {
-//   onOpen: () => void;
-// }
 const MobileNav = ({ onOpen, ...rest }) => {
   return (
     <Flex
@@ -644,7 +626,7 @@ const MobileNav = ({ onOpen, ...rest }) => {
       />
 
       <Text fontSize="2xl" ml="8" fontFamily="monospace" fontWeight="bold">
-        Logo
+        Rent Do Maja Lo
       </Text>
     </Flex>
   );
