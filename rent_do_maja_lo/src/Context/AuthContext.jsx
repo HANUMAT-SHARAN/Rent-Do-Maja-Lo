@@ -7,6 +7,7 @@ export const AuthContext = React.createContext();
 export default function AuthContextProvider({ children }) {
   const [isAuth, SetIsAuth] = React.useState(initialuser);
   const [total,setTotal]=React.useState()
+  const [elecData,setElecData]=React.useState([])
 
   const login = (name) => {
     SetIsAuth(name ? { auth: true, name: name } : { auth: false, name: "" });
@@ -17,8 +18,11 @@ export default function AuthContextProvider({ children }) {
   const totalsum=(t)=>{
       setTotal(t)
   }
-  console.log(total)
-  const val = { login, logout, isAuth,total,totalsum };
+  const getElecData=(data)=>{
+    setElecData(data)
+  }
+  
+  const val = { login, logout, isAuth,total,totalsum,getElecData,elecData };
   return (
     <>
       <AuthContext.Provider value={val}>{children}</AuthContext.Provider>

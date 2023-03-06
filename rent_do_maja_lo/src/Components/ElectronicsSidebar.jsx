@@ -45,9 +45,19 @@ import {
 import axios from "axios";
 import { IconType } from "react-icons";
 import { ReactText } from "react";
-
+import { AuthContext } from "../Context/AuthContext";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import ProductsMap from "./ProductsMap";
+import Pass from "./Pass";
+
+const LinkItems = [
+  { name: "Home", icon: FiHome },
+  { name: "Trending", icon: FiTrendingUp },
+  { name: "Explore", icon: FiCompass },
+  { name: "Favourites", icon: FiStar },
+  { name: "Settings", icon: FiSettings },
+];
 
 export default function ElectronicSidebar(props) {
   const { children, title1 } = props;
@@ -55,7 +65,7 @@ export default function ElectronicSidebar(props) {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Box minH="100vh" bg={useColorModeValue("gray.100", "gray.900")}>
+    <Box  bg={useColorModeValue("gray.100", "gray.900")}>
       <SidebarContent
         onClose={() => onClose}
         display={{ base: "none", md: "block" }}
@@ -75,20 +85,16 @@ export default function ElectronicSidebar(props) {
       </Drawer>
       {/* mobilenav */}
       <MobileNav display={{ base: "flex", md: "none" }} onOpen={onOpen} />
-      <Box ml={{ base: 0, md: 60 }} p="4">
+      <Box ml={{ base: 0, md: 60 }} >
         {children}
       </Box>
     </Box>
   );
 }
 
-// interface SidebarProps extends BoxProps {
-//   onClose: () => void;
-// }
-
 const SidebarContent = ({ onClose, ...rest }) => {
   const [searchParams, SetSearchParams] = useSearchParams();
-
+  const { getElecData } = React.useContext(AuthContext);
   const [data, setData] = React.useState([]);
 
   const [category, setCat] = React.useState("laptop");
@@ -118,21 +124,22 @@ const SidebarContent = ({ onClose, ...rest }) => {
         Setloader(true);
         setData(res.data);
         // ddfdf
+        getElecData(res.data);
         Setloader(false);
       });
   };
   const setcategory = (f) => {
     setCheck(f[0]);
-    if (f[0] === 1 && f[1] === true) {
+    if (f[0] == 1 && f[1] == true) {
       setCat("smartphone");
       success();
-    } else if (f[0] === 2 && f[1] === true) {
+    } else if (f[0] == 2 && f[1] == true) {
       setCat("laptop");
       success();
-    } else if (f[0] === 3 && f[1] === true) {
+    } else if (f[0] == 3 && f[1] == true) {
       setCat("smartdevices");
       success();
-    } else if (f[0] === 4 && f[1] === true) {
+    } else if (f[0] == 4 && f[1] == true) {
       setCat("tablets");
       success();
     }
@@ -157,15 +164,23 @@ const SidebarContent = ({ onClose, ...rest }) => {
     <div>
       <Flex>
         <Box
-          bg={useColorModeValue("white", "gray.900")}
+          bg={useColorModeValue("white", "gray.100")}
           borderRight="1px"
           borderRightColor={useColorModeValue("gray.200", "gray.700")}
-          w={{ base: "full", md: 300 }}
+          w={{ base: 'full', md: 300 }}
           pos="relative"
-          right={0}
+          left={0}
+          display={{ base: "block", md: "none" }}
           h="full"
           {...rest}
         >
+           <Box p={4}  right={0} > <CloseButton
+           size={30}
+          
+           color="red"
+            display={{ base: "flex", md: "none" }}
+            onClick={onClose}
+          /></Box>
           <Flex
             borderRadius={"5px"}
             p={5}
@@ -273,34 +288,15 @@ const SidebarContent = ({ onClose, ...rest }) => {
             </Stack>
           </Container>
           <ToastContainer />
-          <CloseButton
-            display={{ base: "flex", md: "none" }}
-            onClick={onClose}
-          />
-        </Box>
+        
 
-        <SimpleGrid
-          position="relative"
-          columns={[1, 2, 3]}
-          spacing={[0, 9, 10]}
-          ml={20}
-          textAlign="right"
-        >
-          {data &&
-            data.map((el) =>
-              load ? (
-                <Loader />
-              ) : (
-                <ElectronicPro
-                  img={el.img}
-                  id={el.id}
-                  price={el.price}
-                  title={el.title}
-                  dimg={el.deliveryicon}
-                />
-              )
-            )}
-        </SimpleGrid>
+          {LinkItems &&
+            LinkItems.map((link) => (
+              <NavItem key={link.name} icon={link.icon}>
+                {link.name}
+              </NavItem>
+            ))}
+        </Box>
       </Flex>
 
       <ToastContainer />
@@ -365,7 +361,7 @@ const MobileNav = ({ onOpen, ...rest }) => {
       />
 
       <Text fontSize="2xl" ml="8" fontFamily="monospace" fontWeight="bold">
-        Logo
+        Rent Do Maja Lo
       </Text>
     </Flex>
   );
