@@ -25,7 +25,7 @@ export default function PagesNavbar(props) {
   return (
     <>
       <SimpleGrid
-        columns={[3, 4, 5, 6]}
+        columns={[2,3, 4, 5, 6]}
         gap={5}
         mb={10}
         p={5}
