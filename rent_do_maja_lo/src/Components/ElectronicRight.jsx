@@ -232,7 +232,7 @@ const SidebarContent = ({ ...rest }, url) => {
           bg={useColorModeValue("white", "gray.900")}
           borderRight="1px"
           borderRightColor={useColorModeValue("gray.200", "gray.700")}
-          w={{ base: "270px", md: 350 }}
+          w={{ base: "full", md: 350 }}
           {...rest}
         >
           <Box p={4} right={0}>
